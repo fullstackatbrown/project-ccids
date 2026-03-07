@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <div>
       <div style={{ height: "297px" }}></div>{" "}
-      {/* ^^^remove this when adding header! */}
+      {/* ^^^remove this when adding header */}
       <TitleImage />
-      <VisionBlock /> {/* this is the "Our Vision" part*/}
+      <VisionBlock />
       <h2 style={sectionHeaderStyle}>CCIDS is built around 5 pillars:</h2>
       <div style={{ height: "30px" }}></div>
       <FivePillars />
