@@ -31,7 +31,7 @@ export default function ContactUs() {
         height: "944px",
         marginLeft: "calc((100vw - 1498px) / 2)",
         marginTop: "40px",
-        backgroundColor: "rgba(2, 123, 191, 0.2)",
+        backgroundColor: "var(--primary-light)",
         color: "black",
         borderRadius: "60px",
         padding: "40px 100px",
@@ -75,7 +75,7 @@ export default function ContactUs() {
       />
       <button
         style={{
-          backgroundColor: "#4E3629",
+          backgroundColor: "var(--brown)",
           color: "white",
           borderRadius: "30px",
           width: "556px",

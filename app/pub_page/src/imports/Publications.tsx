@@ -1,6 +1,6 @@
 import svgPaths from "./svg-0wmwxk3hom";
-import imgImage1 from "figma:asset/aa0ba0b0f9f26ebda60d30bd5f8141b43b8eeae1.png";
-import imgCenterForClinicalCancerInformaticsAndDataScienceHz2Ab8Daf73Bfd10791 from "figma:asset/58fd56f75ebe98b6835b2040fdd2bab0f7350eaa.png";
+import imgImage1 from "../assets/aa0ba0b0f9f26ebda60d30bd5f8141b43b8eeae1.png";
+import imgCenterForClinicalCancerInformaticsAndDataScienceHz2Ab8Daf73Bfd10791 from "../assets/58fd56f75ebe98b6835b2040fdd2bab0f7350eaa.png";
 
 function Frame2() {
   return (
@@ -57,7 +57,7 @@ function Component() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`*, Shyr Y*, on behalf of the COVID-19 and Cancer Consortium. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1016/j.lana.2025.101038">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1016/j.lana.2025.101038">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]">
             Associations of COVID-19 vaccination with risks for post-infectious cardiovascular complications: an international cohort study in cancer patients with SARS-CoV-2 infection
           </span>
         </a>
@@ -76,7 +76,7 @@ function Component1() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Uzun A, Gamsiz Uzun ED</span>
         <span className="leading-[23px]">.</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1093/narcan/zcae047">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1093/narcan/zcae047">{` The Atlas of Protein-Protein Interactions in Cancer (APPIC)-a webtool to visualize and analyze cancer subtypes`}</span>
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >{` The Atlas of Protein-Protein Interactions in Cancer (APPIC)-a webtool to visualize and analyze cancer subtypes`}</span>
         </a>
         <span className="leading-[23px]">. NAR Cancer. 2025 Jan 15;7(1):zcae047. doi: 10.1093/narcan/zcae047. PMID: 39822275; PMCID: PMC11734624.</span>
       </p>
@@ -93,7 +93,7 @@ function Component2() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, et al. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.18632/oncotarget.28703">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.18632/oncotarget.28703">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Worldwide Innovative Network (WIN) Consortium in Personalized Cancer Medicine: Bringing next-generation precision oncology to patients
           </span>
         </a>
@@ -111,13 +111,13 @@ function Component3() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{` “Lessons From the COVID-19 and Cancer Consortium” in National Cancer Policy Forum, Board on Health Care Services, Health and Medicine Division, & National Academies of Sciences, Engineering, and Medicine. (2025). `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.17226/28676">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.17226/28676">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Enabling 21st Century Applications for Cancer Surveillance Through Enhanced Registries and Beyond: Proceedings of a Workshop
           </span>
         </a>
         <span className="leading-[23px]">{` (F. Amankwah, T. Wizemann, & S. Nass, Eds). National Academies Press. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.17226/28676">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.17226/28676">{`https://doi.org/10.17226/28676`}</span>
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >{`https://doi.org/10.17226/28676`}</span>
         </a>
       </p>
     </div>
@@ -146,7 +146,7 @@ function Frame4() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Yoon S, Ziemba YC. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/39850579/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/39850579/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Coronavirus Disease 2019 (COVID-19) Real World Data Infrastructure: A Big-Data Resource for Study of the Impact of COVID-19 in Patient Populations With Immunocompromising Conditions
           </span>
         </a>
@@ -173,7 +173,7 @@ function Frame5() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Hussain SA, Singh P, Childs DS, Baca SC, Orme JJ, Mateo J, Agarwal N, Gillessen S, Murad MH, Sartor O, Bryce AH. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/39848867/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/39848867/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Heterogeneity of the Treatment Effect with PARP Inhibitors in Metastatic Castration-resistant Prostate Cancer: A Living Interactive Systematic Review and Meta-analysis.
           </span>
         </a>
@@ -200,7 +200,7 @@ function Frame6() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Zou J, Tevaarwerk AJ, Leventakos K, Kehl KL, Palmer JM, Murad MH, Baral C, Riaz IB. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/39836495/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/39836495/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Collaborative large language models for automated data extraction in living systematic reviews.
           </span>
         </a>
@@ -227,7 +227,7 @@ function Component8() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Davidoff AJ, Zeruto C, Mariotto AB. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/39194340/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/39194340/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Evolving patterns in systemic treatment utilization and survival among older patients with advanced cutaneous melanoma.
           </span>
         </a>
@@ -246,7 +246,7 @@ function Frame7() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Uzun A, Gamsiz Uzun ED</span>
         <span className="leading-[23px]">.</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1093/narcan/zcae047">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1093/narcan/zcae047">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             The Atlas of Protein-Protein Interactions in Cancer (APPIC)-a webtool to visualize and analyze cancer subtypes
           </span>
         </a>
@@ -273,7 +273,7 @@ function Frame8() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Mishra S</span>
         <span className="leading-[23px]">{`, Condon P, Gracia SM. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1162/99608f92.d622eaff">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1162/99608f92.d622eaff">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Building an Inclusive Data Literacy Community.
           </span>
         </a>
@@ -369,7 +369,7 @@ function Component12() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Prior F, Griffith M, Griffith OL. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC7M-lYNwX9TXwbAbWlBgTaRYsf6X89HZOv6Z3RmtuJ3WWIbYZVlbX-dple0F-OgHvV-ZaKy3TqhZgpDl4tE-ZexhKa0wc2PiQvUgmrcp0hWqodWZqVsqb-A==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC7M-lYNwX9TXwbAbWlBgTaRYsf6X89HZOv6Z3RmtuJ3WWIbYZVlbX-dple0F-OgHvV-ZaKy3TqhZgpDl4tE-ZexhKa0wc2PiQvUgmrcp0hWqodWZqVsqb-A==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             A New Era of Data-Driven Cancer Research and Care: Opportunities and Challenges
           </span>
         </a>
@@ -388,7 +388,7 @@ function Component13() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Farmakiotis D. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCMsbTnaj1lMldZZ-9C7V7Hjdbrpjhw_ZjV6XGj80U0ctm8BiLnNnOxoJA0L7xYGnpu0kMA2boE7LQ_meSkwi4gzFe-Z8oSlloYfKyYlyfNH6PDcASnrK-5w==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCMsbTnaj1lMldZZ-9C7V7Hjdbrpjhw_ZjV6XGj80U0ctm8BiLnNnOxoJA0L7xYGnpu0kMA2boE7LQ_meSkwi4gzFe-Z8oSlloYfKyYlyfNH6PDcASnrK-5w==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Oral antivirals for COVID-19 among patients with cancer
           </span>
         </a>
@@ -407,7 +407,7 @@ function Component14() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Xu H, Wang X. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwClgIne5um7vO54cxw_LCnKBNPdYz-x-Rttcvx9bM4u435-lpUV729zz3u64tY2upKqUAQOZ5MmpSSOEwmjDp3EWyyhu7B3yxxWzZO13L0wrYBD_2Ty7tAWg==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwClgIne5um7vO54cxw_LCnKBNPdYz-x-Rttcvx9bM4u435-lpUV729zz3u64tY2upKqUAQOZ5MmpSSOEwmjDp3EWyyhu7B3yxxWzZO13L0wrYBD_2Ty7tAWg==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             SEETrials: Leveraging Large Language Models for Safety and Efficacy Extraction in Oncology Clinical Trials
           </span>
         </a>
@@ -426,7 +426,7 @@ function Component15() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">VanHelene AD</span>
         <span className="leading-[23px]">{`, Yang NT, Ramirez AG (2024). `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC-1t11a3oGlMzdcm27FwDOtUuQxQmxj_swJdzPeFNrV1zYz-oMKKtoGLSkU1B5wh3W6XpK9neEE_YsXjEgfN9Xsg67jm_ZoeOYxRmESZhphg5tiQltgxtBQ==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC-1t11a3oGlMzdcm27FwDOtUuQxQmxj_swJdzPeFNrV1zYz-oMKKtoGLSkU1B5wh3W6XpK9neEE_YsXjEgfN9Xsg67jm_ZoeOYxRmESZhphg5tiQltgxtBQ==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             CancerClarity app: Enhancing cancer data visualization with AI-generated narratives
           </span>
         </a>
@@ -445,7 +445,7 @@ function Component16() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Chen Q, Song L, Rosenbloom ST, Malin BA, Yin Z. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCTPc_rc7TU0Rjf9q3TACMDw1MnmSCxsGBbiLLRnzwfvo9HMc-6xp6CmHed1g1ZB_sf1o4p9YK7tGAGn4nXTSgKYshL4TBqv0cMwFStRin_ER_iZG61SvB6g==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCTPc_rc7TU0Rjf9q3TACMDw1MnmSCxsGBbiLLRnzwfvo9HMc-6xp6CmHed1g1ZB_sf1o4p9YK7tGAGn4nXTSgKYshL4TBqv0cMwFStRin_ER_iZG61SvB6g==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Optimizing word embeddings for small dataset: a case study on patient portal messages from breast cancer patients
           </span>
         </a>
@@ -465,7 +465,7 @@ function Component17() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL#, Lythgoe MP#</span>
         <span className="leading-[23px]">. “</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCpkili86ABbFTNOWp0e4_9J7f4wl-PvBI8cBviesZbzSquvF3t76fm7z7ZV-0t6IpMBOrB8YJbDYWFhkrJrIIde1xaFgnm_lKjzcUog2uZaRmjO9XZF8xQg==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCpkili86ABbFTNOWp0e4_9J7f4wl-PvBI8cBviesZbzSquvF3t76fm7z7ZV-0t6IpMBOrB8YJbDYWFhkrJrIIde1xaFgnm_lKjzcUog2uZaRmjO9XZF8xQg==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             As bleak as it sounds? Analysing trends in oncology clinical trial initiation in the UK from 2010 to 2022
           </span>
         </a>
@@ -485,7 +485,7 @@ function Component18() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Mishra S, Gamsiz Uzun ED, Warner JL</span>
         <span className="leading-[23px]">{`. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCihogChQdaQPNHVJg_u2HhXpRHnYNIX_zvorE03RA2_vtaNfM81DDM55MQNa4tmUjsw9cEsphVHx_IdXhDin73vGDwYr4SlK6gKSdfIq0n_0p-qLOtCl7JQ==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwCihogChQdaQPNHVJg_u2HhXpRHnYNIX_zvorE03RA2_vtaNfM81DDM55MQNa4tmUjsw9cEsphVHx_IdXhDin73vGDwYr4SlK6gKSdfIq0n_0p-qLOtCl7JQ==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Inferring gender from first names: Comparing the accuracy of Genderize, Gender API, and the gender R package on authors of diverse nationality
           </span>
         </a>
@@ -504,7 +504,7 @@ function Component19() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Gamsiz Uzun ED</span>
         <span className="leading-[23px]">{`. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC1lSoDHEp56Z6OwrGYKUD3mgWEHE1lTALh_ageR2q3oXbN90SivTnq1H22lFVTJQEjFx0ESca1bQVJzxseeVXS8AOA8uJgLJbVSYIWrYRYtcvLawBlHSneQ==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC1lSoDHEp56Z6OwrGYKUD3mgWEHE1lTALh_ageR2q3oXbN90SivTnq1H22lFVTJQEjFx0ESca1bQVJzxseeVXS8AOA8uJgLJbVSYIWrYRYtcvLawBlHSneQ==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             A deep learning model for prediction of autism status using whole-exome sequencing data
           </span>
         </a>
@@ -521,7 +521,7 @@ function Component20() {
       <p className="flex-[1_0_0] font-['Source_Sans_Pro:Regular',sans-serif] leading-[0] min-h-px min-w-px relative text-[0px] text-[20px] text-black">
         <span className="leading-[23px]">{`Hadfield MJ, Benjamin DJ, Krell J, Warner J, Lythgoe MP. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/38584070/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/38584070/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             The evolving posology and administration of immune checkpoint inhibitors: subcutaneous formulations
           </span>
         </a>
@@ -538,7 +538,7 @@ function Component21() {
       <p className="flex-[1_0_0] font-['Source_Sans_Pro:Regular',sans-serif] leading-[0] min-h-px min-w-px relative text-[0px] text-[20px] text-black">
         <span className="leading-[23px]">{`Burus T*, VanHelene AD*, Rooney MK, Lang Kuhs KA, Christian WJ, McNair C, Mishra S, Paulino AC, Smith GL, Frank SJ, Warner JL. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/38758559/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/38758559/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Travel-Time Disparities in Access to Proton Beam Therapy for Cancer Treatment
           </span>
         </a>
@@ -555,7 +555,7 @@ function Component22() {
       <p className="flex-[1_0_0] font-['Source_Sans_Pro:Regular',sans-serif] leading-[0] min-h-px min-w-px relative text-[0px] text-[20px] text-black">
         <span className="leading-[23px]">{`Zuo X, Kumar A, Shen S, Li J, Cong G, Jin E, Chen Q, Warner JL, Yang P, Xu H. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/38885475/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/38885475/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Extracting Systemic Anticancer Therapy and Response Information from Clinical Notes Following the RECIST Definition
           </span>
         </a>
@@ -574,7 +574,7 @@ function Component23() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Rosenthal EL, Murphy BA, Hohman TJ, Koran MEI. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/38148283/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/38148283/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Frontal and anterior temporal hypometabolism post chemoradiation in head and neck cancer: A real-world PET study
           </span>
         </a>
@@ -593,7 +593,7 @@ function Component24() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Farmakiotis D. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/38343793/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/38343793/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Oral antivirals for COVID-19 among patients with cancer
           </span>
         </a>
@@ -612,7 +612,7 @@ function Component25() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/38269846/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/38269846/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Introducing a Comprehensive Score of Systemic Anticancer Treatment Relevance
           </span>
         </a>
@@ -681,7 +681,7 @@ function Component26() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1158/1055-9965.epi-22-0876">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1158/1055-9965.epi-22-0876">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             The Importance of Recency of Cancer Diagnosis in Patients Hospitalized with COVID-19-Glimpses from an EHR-based Study
           </span>
         </a>
@@ -706,7 +706,7 @@ function Component27() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Uzun A</span>
         <span className="leading-[23px]">{`, Duan F, Wang J, Amin A, Golijanin D, Holder S, Lagos G, Safran H, El-Deiry WS, Carneiro BA `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9906077/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9906077/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Clinical features of patients with MTAP-deleted bladder cancer
           </span>
         </a>
@@ -725,7 +725,7 @@ function Component28() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Odedina FT, Duma N, Singh P, Kehl KL, Kamran SC, Murad MH, Landman A, Van Allen E, Bryce AH. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1001/jamaoncol.2022.5511">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1001/jamaoncol.2022.5511">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Disparities in the Inclusion of Racial and Ethnic Minority Groups and Older Adults in Prostate Cancer Clinical Trials: A Meta-analysis
           </span>
         </a>
@@ -748,7 +748,7 @@ function Component29() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Gamsiz Uzun ED</span>
         <span className="leading-[23px]">{`. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.3390/ijms24065327">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.3390/ijms24065327">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             MMR Deficiency Defines Distinct Molecular Subtype of Breast Cancer with Histone Proteomic Networks
           </span>
         </a>
@@ -769,7 +769,7 @@ function Component30() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`*. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1016/j.lana.2023.100445">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1016/j.lana.2023.100445">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Breakthrough SARS-CoV-2 infections among patients with cancer following two and three doses of COVID-19 mRNA vaccines: a retrospective observational study from the COVID-19 and Cancer Consortium
           </span>
         </a>
@@ -790,7 +790,7 @@ function Component31() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`; COVID-19 and Cancer Consortium. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1186/s12885-023-10708-6">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1186/s12885-023-10708-6">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Impact of COVID-19 in patients on active melanoma therapy and with history of melanoma
           </span>
         </a>
@@ -809,7 +809,7 @@ function Component32() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Rini B, Korde LA. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1093/jnci/djad015">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1093/jnci/djad015">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             COVID-19 severity by vaccination status in the NCI COVID-19 and Cancer Patients Study (NCCAPS)
           </span>
         </a>
@@ -828,13 +828,13 @@ function Component33() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Gamsiz Uzun ED</span>
         <span className="leading-[23px]">{`*, Lizarraga SB*. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1093/hmg/ddad002">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1093/hmg/ddad002">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Dysregulation of the chromatin environment leads to differential alternative splicing as a mechanism of disease in a human model of autism spectrum disorder
           </span>
         </a>
         <span className="leading-[23px]">. Human Molecular Genetics. 2023 May 5;32(10):1634-1646. This study was featured in a Spectrum News article (“</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://www.spectrumnews.org/news/chromatin-remodeling-tied-to-altered-splicing-in-autism-model/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://www.spectrumnews.org/news/chromatin-remodeling-tied-to-altered-splicing-in-autism-model/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Chromatin remodeling tied to altered splicing in autism model
           </span>
         </a>
@@ -857,7 +857,7 @@ function Component34() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Brickman A</span>
         <span className="leading-[23px]">{`, Yakirevich E, Taliano R, Wang Y. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1016/j.prp.2023.154476">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1016/j.prp.2023.154476">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Whole slide image features predict pathologic complete response and poor clinical outcomes in triple-negative breast cancer
           </span>
         </a>
@@ -876,7 +876,7 @@ function Component35() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Aerts HJWL, Miller TA, Savova GK, Mak RH, Bitterman DS. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1200/cci.23.00048">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1200/cci.23.00048">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Natural Language Processing to Automatically Extract the Presence and Severity of Esophagitis in Notes of Patients Undergoing Radiotherapy
           </span>
         </a>
@@ -922,7 +922,7 @@ function Component38() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Tucker MD, Hausrath DJ, Shah DP, DeCara JM, Bakouny Z, Labaki C, Choueiri TK, Dent S, Akhter N, Ismail-Khan R, Tachiki L, Slosky D, Polonsky TS, Awosika JA, Crago A, Wise-Draper T, Balanchivadze N, Hwang C, Fecher LA, Gomez CG, Hayes-Lattin B, Glover MJ, Shah SA, Gopalakrishnan D, Griffiths EA, Kwon DH, Koshkin VS, Mahmood S, Bashir B, Nonato T, Razavi P, McKay RR, Nagaraj G, Oligino E, Puc M, Tregubenko P, Wulff-Burchfield EM, Xie Z, Halfdanarson TR, Farmakiotis D, Klein EJ, Robilotti EV, Riely GJ, Durand JB, Hayek SS, Kondapalli L, Berg S, O’Connor TE, Bilen MA, Castellano C, Accordino MK, Sibel B, Weissmann LB, Jani C, Flora DB, Rudski L, Dutra MS, Nathaniel B, Ruíz-García E, Vilar-Compte D, Gupta S, Morgans A, Nohria A; COVID-19 and Cancer Consortium. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1016%2Fj.tranon.2023.101709">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1016%2Fj.tranon.2023.101709">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             COVID-19 severity and cardiovascular outcomes in SARS-CoV-2-infected patients with cancer and cardiovascular disease
           </span>
         </a>
@@ -941,7 +941,7 @@ function Component39() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1200/CCI.23.00082">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1200/CCI.23.00082">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Factors Associated With Altmetric Attention Scores for Randomized Phase III Cancer Clinical Trials
           </span>
         </a>
@@ -960,7 +960,7 @@ function Component40() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">{` Warner JL`}</span>
         <span className="leading-[23px]">{`, Romano E. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1016/j.esmoop.2023.101596">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1016/j.esmoop.2023.101596">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Learning Lessons from the COVID-19 pandemic for Real World Evidence research in Oncology – shared perspectives from an international consortia
           </span>
         </a>
@@ -979,7 +979,7 @@ function Component41() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Ginsberg MS, Plodkowski A, Girshman J, Sawan P, Pillai S, Sweeney SM, Kehl KL, Panageas KS, Schultz N, Schrag D, Riely GJ; `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1158/1078-0432.ccr-23-0580">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1158/1078-0432.ccr-23-0580">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             AACR GENIE BPC Core Team. The GENIE BPC NSCLC Cohort: A Real-World Repository Integrating Standardized Clinical and Genomic Data for 1,846 Patients with Non-Small Cell Lung Cancer
           </span>
         </a>
@@ -998,7 +998,7 @@ function Component42() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Mak RH, Miller T, Savova GK. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1016/j.ijrobp.2023.03.055">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1016/j.ijrobp.2023.03.055">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             An end-to-end natural language processing system for automatically extracting radiotherapy events from clinical texts: NLP to extract radiotherapy events from text
           </span>
         </a>
@@ -1018,7 +1018,7 @@ function Component43() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Gamsiz Uzun ED</span>
         <span className="leading-[23px]">{`, Jackson C, Kurt H. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://pubmed.ncbi.nlm.nih.gov/37945023/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://pubmed.ncbi.nlm.nih.gov/37945023/">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Exon 19 Deletion in EGFR in a Patient with a High-Grade Glioma: A Case Report
           </span>
         </a>
@@ -1037,7 +1037,7 @@ function Component44() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Savova G. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1101/2023.05.05.23289524">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1101/2023.05.05.23289524">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             DeepPhe-CR: Natural Language Processing Software Services for Cancer Registrar Case Abstraction
           </span>
         </a>
@@ -1058,7 +1058,7 @@ function Component45() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Connors JM, Shah DP*, Rosovsky RP*; `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1001%2Fjamaoncol.2023.2934">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1001%2Fjamaoncol.2023.2934">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             COVID-19 and Cancer Consortium. Systemic Anticancer Therapy and Thromboembolic Outcomes in Hospitalized Patients With Cancer and COVID-19
           </span>
         </a>
@@ -1079,7 +1079,7 @@ function Component46() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Lustberg MB*, Accordino MK*, Shah DP*; COVID-19 and Cancer Consortium. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.7554/eLife.82618">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.7554/eLife.82618">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Clinical characteristics, racial inequities, and outcomes in patients with breast cancer and COVID-19: a COVID-19 and cancer consortium (CCC19) cohort study
           </span>
         </a>
@@ -1098,7 +1098,7 @@ function Component47() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Wells QS, Wheless L, Bastarache L. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1093/bioinformatics/btad655">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1093/bioinformatics/btad655">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Next-generation phenotyping: introducing phecodeX for enhanced discovery research in medical phenomics
           </span>
         </a>
@@ -1117,7 +1117,7 @@ function Component48() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">{` Warner JL`}</span>
         <span className="leading-[23px]">{`, Griffith OL, Griffith M, Wagner AH. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1093/jamiaopen/ooad093">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1093/jamiaopen/ooad093">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Normalization of drug and therapeutic concepts with Thera-Py
           </span>
         </a>
@@ -1139,7 +1139,7 @@ function Component49() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Gamsiz Uzun ED</span>
         <span className="leading-[23px]">{`*, Morrow EM*. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1242/bio.059778">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1242/bio.059778">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Targeting NHE6 gene expression identifies lysosome and neurodevelopmental mechanisms in a haploid in vitro cell model
           </span>
         </a>
@@ -1158,7 +1158,7 @@ function Component50() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`*, Lam P*. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1200/go.23.00229">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1200/go.23.00229">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Burden of AML, 1990-2019: Estimates From the Global Burden of Disease Study
           </span>
         </a>
@@ -1179,7 +1179,7 @@ function Component51() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Uzun A</span>
         <span className="leading-[23px]">{`, Person TN, Rappoport N, Zhao Z, Williams MS. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1093/jamia/ocad211">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1093/jamia/ocad211">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Enabling the clinical application of artificial intelligence in genomics: a perspective of the AMIA Genomics and Translational Bioinformatics Workgroup
           </span>
         </a>
@@ -1198,7 +1198,7 @@ function Component52() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Warner JL</span>
         <span className="leading-[23px]">{`, Guo X, Hunter-Zinck H, Yu TV, Pilai S, Nichols C, Gardos SM, Philip J; AACR Project GENIE BPC Core Team, AACR Project GENIE Consortium; Kehl KL, Riely GJ, Schrag D, Lee J, Fiandalo MV, Sweeney SM, Pugh TJ, Sander C, Cerami E, Gao J, Schultz N. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1158/0008-5472.can-23-0816">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1158/0008-5472.can-23-0816">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Analysis and Visualization of Longitudinal Genomic and Clinical Data from the AACR Project GENIE Biopharma Collaborative in cBioPortal
           </span>
         </a>
@@ -1217,7 +1217,7 @@ function Component53() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">JL Warner</span>
         <span className="leading-[23px]">{`, Y Chen, Q Chen. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://doi.org/10.1214/23-AOAS1748">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://doi.org/10.1214/23-AOAS1748">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Building a dose toxo-equivalence model from a Bayesian meta-analysis of published clinical trials
           </span>
         </a>
@@ -1237,7 +1237,7 @@ function Component54() {
         <span className="font-['Source_Sans_Pro:Bold',sans-serif] leading-[23px]">Baykara Y,</span>
         <span className="leading-[23px]">{` Carabaño M, Hacking SM. `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[23px] underline" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC8RfXtkpCRbEuxkcVfu8DcHFZOxobM4OeYn8ZBfrINK7QnB7Vsnk58UU8V-SaAPVCQ8GUDzXzSn_B-SpWM76FELA3HMoNzSEjZURgRfEcJkZTMF4y5xIVeA==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" href="https://ho4ybggbb.cc.rs6.net/tn.jsp?f=001Mtf_trd-gyidrYHIa9w5vp20_HVprnWKGHeC8hXZ4U1WautRTrqVYfHJRcPKglwC8RfXtkpCRbEuxkcVfu8DcHFZOxobM4OeYn8ZBfrINK7QnB7Vsnk58UU8V-SaAPVCQ8GUDzXzSn_B-SpWM76FELA3HMoNzSEjZURgRfEcJkZTMF4y5xIVeA==&c=vWD5A9xkM3HBZZoaW_ezjxGhkwhouBgL7yoiCDHU1lUZwyyJaB-NXQ==&ch=eOm6BJS7zBDTjUKCvGCbC2OeTZL1dInhzRqWXlEQvhF_S5zBymoTdw==">
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[23px]" >
             Whole slide images as non-fungible tokens: A decentralized approach to secure, scalable data storage and access
           </span>
         </a>
@@ -1376,7 +1376,7 @@ function Elements() {
   return (
     <div className="content-stretch flex gap-[155px] items-center justify-end relative shrink-0 w-full" data-name="Elements">
       <div className="h-[90.6px] relative shrink-0 w-[576px]" data-name="Center-for-Clinical-Cancer-Informatics-and-Data-Science_Hz-2ab8daf73bfd1079 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCenterForClinicalCancerInformaticsAndDataScienceHz2Ab8Daf73Bfd10791} />
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCenterForClinicalCancerInformaticsAndDataScienceHz2Ab8Daf73Bfd10791.src} />
       </div>
       <Navigation />
       <SocialIcons />
@@ -1459,7 +1459,7 @@ function Text() {
       <p className="leading-[0] relative shrink-0">
         <span className="leading-[28px]">{`© 2026 `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[28px] underline" href="https://sites.brown.edu/ccids/">
-          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[28px]" href="https://sites.brown.edu/ccids/">{`Center for Clinical Cancer Informatics and Data Science (CCIDS) at Brown University `}</span>
+          <span className="[text-decoration-skip-ink:none] decoration-solid leading-[28px]" >{`Center for Clinical Cancer Informatics and Data Science (CCIDS) at Brown University `}</span>
         </a>
         <span className="leading-[28px]">. All Rights Reserved.</span>
       </p>
@@ -1503,7 +1503,7 @@ export default function Publications() {
       <div className="absolute content-stretch flex items-center justify-end left-0 p-[100px] top-0 w-[1728px]" data-name="Nav Bar">
         <div className="h-[97px] relative shrink-0 w-[617px]" data-name="image 1">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-full left-0 max-w-none top-0 w-[100.06%]" src={imgImage1} />
+            <img alt="" className="absolute h-full left-0 max-w-none top-0 w-[100.06%]" src={imgImage1.src} />
           </div>
         </div>
         <Frame />

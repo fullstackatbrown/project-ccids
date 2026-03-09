@@ -5,13 +5,12 @@ export default function VisionBlock() {
   const [isOpen, setIsOpen] = useState(true);
   return (
     <section
-      className="vision-block"
       style={{
         width: "100%",
         maxWidth: "1498px",
         padding: "50px 20px 40px 20px",
         margin: "80px auto 80px auto", //first argument is distance from the image , top right bottom left
-        backgroundColor: "rgba(2, 123, 191, 0.2)",
+        backgroundColor: "var(--primary-light)",
         borderRadius: "30px",
       }}
     >

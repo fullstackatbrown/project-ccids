@@ -109,7 +109,7 @@ export default function MembersPage() {
                                     alt={m.imageAlt}
                                     width={84}
                                     height={84}
-                                    className={styles.avatarImage}
+                                    className={styles.avatarImg}
                                 />
                             </div>
 

@@ -12,7 +12,7 @@ export default function EventsPage() {
       <main className="flex-grow flex flex-col items-center px-6 py-12 md:py-20 w-full max-w-6xl mx-auto">
         
         {/* Page Title */}
-        <h1 className="text-4xl md:text-5xl font-bold text-[#3478C1] mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold text-[#027BBF] mb-12">
           Events
         </h1>
 
@@ -29,7 +29,7 @@ export default function EventsPage() {
           
           {/* Featured Event Details */}
           <div className="w-full lg:w-1/2 flex flex-col">
-            <div className="inline-block bg-[#3478C1] text-white text-xs tracking-wider uppercase font-bold px-3 py-1 rounded-full w-max mb-4">
+            <div className="inline-block bg-[#027BBF] text-white text-xs tracking-wider uppercase font-bold px-3 py-1 rounded-full w-max mb-4">
               Featured
             </div>
             <h2 className="text-3xl font-bold mb-4 text-black">
@@ -38,15 +38,15 @@ export default function EventsPage() {
             
             <div className="space-y-3 mb-6 text-gray-700">
               <div className="flex items-center gap-3">
-                <Calendar size={20} className="text-[#3478C1]" />
+                <Calendar size={20} className="text-[#027BBF]" />
                 <span>Friday, October 23, 2026</span>
               </div>
               <div className="flex items-center gap-3">
-                <Clock size={20} className="text-[#3478C1]" />
+                <Clock size={20} className="text-[#027BBF]" />
                 <span>6:00 PM - 9:00 PM EST</span>
               </div>
               <div className="flex items-center gap-3">
-                <MapPin size={20} className="text-[#3478C1]" />
+                <MapPin size={20} className="text-[#027BBF]" />
                 <span>Main Campus Auditorium</span>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function EventsPage() {
               Join us for our biggest event of the year! Learn from industry leaders, participate in interactive workshops, and network with peers. Food and refreshments will be provided. 
             </p>
             
-            <button className="bg-[#3478C1] hover:bg-[#2a619c] text-white font-bold py-3 px-8 rounded-lg transition-colors w-full sm:w-max shadow-sm">
+            <button className="bg-[#027BBF] hover:bg-[#026299] text-white font-bold py-3 px-8 rounded-lg transition-colors w-full sm:w-max shadow-sm">
               RSVP Now
             </button>
           </div>

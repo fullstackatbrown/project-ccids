@@ -1,11 +1,23 @@
 @import "tailwindcss";
 
+/* Force light color scheme - prevents browser dark mode from affecting the site */
 :root {
+  color-scheme: light only;
   --background: #ffffff;
   --foreground: #171717;
   --primary: #027BBF;
+  --primary-light: rgba(2, 123, 191, 0.2);
+  --primary-hover: #026299;
   --gray: #E0E4E7;
   --brown: #4E3629;
+}
+
+/* Override any dark mode - force light theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
 }
 
 @theme inline {
@@ -15,21 +27,19 @@
   --font-sourcesans: "Source Sans Pro", sans-serif;
   --font-mono: var(--font-geist-mono);
   --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-hover: var(--primary-hover);
   --color-gray: var(--gray);
   --color-brown: var(--brown);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Dark mode disabled - using light theme only for consistent branding */
 
-body {
-  background: var(--background);
+html, body {
+  background: var(--background) !important;
+  background-color: #ffffff !important;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
 
 @font-face {

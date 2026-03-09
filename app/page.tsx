@@ -8,15 +8,13 @@ const sectionHeaderStyle = {
   fontSize: "35px",
   fontWeight: "bold",
   WebkitTextStroke: "0.5px",
-  borderLeft: "8px solid #027BBF",
+  borderLeft: "8px solid var(--primary)",
   paddingLeft: "12px",
   marginLeft: "calc((100vw - 1498px) / 2)",
 };
 export default function Home() {
   return (
     <div>
-      <div style={{ height: "297px" }}></div>{" "}
-      {/* ^^^remove this when adding header */}
       <TitleImage />
       <VisionBlock />
       <h2 style={sectionHeaderStyle}>CCIDS is built around 5 pillars:</h2>

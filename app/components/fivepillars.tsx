@@ -15,7 +15,7 @@ export default function FivePillars() {
         height: "150px",
         display: "flex",
         margin: "30px auto 30px auto",
-        backgroundColor: "#e0e4e7",
+        backgroundColor: "var(--gray)",
         borderRadius: "30px",
       }}
     >
@@ -26,8 +26,8 @@ export default function FivePillars() {
           style={{
             fontSize: "70px",
             fontWeight: "bold",
-            WebkitTextStroke: "2px #027BBF",
-            color: "#027BBF",
+            WebkitTextStroke: "2px var(--primary)",
+            color: "var(--primary)",
             width: "60px", // to make them all align vertically
             marginRight: "20px",
             textAlign: "center", // to make the I align with the rest (and all the initials line up now as well)

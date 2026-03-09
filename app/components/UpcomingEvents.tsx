@@ -46,7 +46,7 @@ export default function UpcomingEvents() {
         {/* header and button div */}
         <button
           style={{
-            backgroundColor: "#027BBF",
+            backgroundColor: "var(--primary)",
             color: "white",
             width: "229px",
             height: "68px",
