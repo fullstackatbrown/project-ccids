@@ -7,10 +7,10 @@ export default function Contacts() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-8">
+    <div className="flex flex-col items-center gap-8 px-6 py-8 md:px-12">
       <h1 className="text-4xl font-sourcesans font-bold text-primary">Contact</h1>
-      <form className="flex flex-col gap-8 w-full max-w-4xl" onSubmit={handleSubmit}>
-        <div className="flex gap-8">
+  <form className="flex flex-col gap-8 w-full max-w-4xl mt-6 mb-10" onSubmit={handleSubmit}>
+        <div className="flex flex-col md:flex-row gap-8">
           <div className="flex flex-col gap-4 flex-1">
             <input
               type="text"

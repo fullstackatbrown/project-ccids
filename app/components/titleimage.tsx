@@ -7,7 +7,7 @@ export default function TitleImage() {
       <img
         src="/images/BrownUniversityCampusPhoto.jpg"
         alt="Brown CCIDS Image"
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
       />
       <div style={{ position: "absolute", bottom: "70px" }}>
         <h1

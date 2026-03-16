@@ -18,7 +18,7 @@ export default function Footer() {
           flex: 1,
           display: "flex",
           flexDirection: "column",
-          padding: "70px 100px 0 100px",
+          padding: "70px clamp(16px,6vw,100px) 0 clamp(16px,6vw,100px)",
           gap: "32px",
         }}
       >
@@ -28,6 +28,7 @@ export default function Footer() {
             display: "flex",
             alignItems: "center",
             gap: "40px",
+            flexWrap: "wrap",
           }}
         >
           <Image
@@ -39,9 +40,10 @@ export default function Footer() {
           <nav
             style={{
               display: "flex",
-              gap: "40px",
+              gap: "24px",
               flex: 1,
               justifyContent: "center",
+              flexWrap: "wrap",
             }}
           >
             <Link
@@ -100,7 +102,7 @@ export default function Footer() {
               Publications
             </Link>
           </nav>
-          <div style={{ display: "flex", gap: "24px" }}>
+          <div style={{ display: "flex", gap: "16px", alignItems: "center" }}>
             <Link href="#">
               <Image
                 src="/img/LinkedIn.png"
@@ -133,7 +135,9 @@ export default function Footer() {
           style={{
             display: "flex",
             alignItems: "center",
-            marginLeft: "270px",
+            gap: "24px",
+            flexWrap: "wrap",
+            width: "100%",
           }}
         >
           <div>
@@ -152,42 +156,46 @@ export default function Footer() {
           </div>
           <div
             style={{
-              marginLeft: "200px",
+              marginLeft: "auto",
               backgroundColor: "white",
               borderRadius: "24px",
-              padding: "56px 32px",
+              padding: "32px",
               display: "flex",
               alignItems: "center",
-              gap: "16px",
+              gap: "12px",
               flex: 1,
               maxWidth: "520px",
+              minWidth: 0,
             }}
           >
-            <input
-              type="email"
-              placeholder="Email"
-              style={{
-                flex: 3,
-                border: "2px solid black",
-                borderRadius: "34px",
-                padding: "12px 24px",
-                fontSize: "17px",
-                outline: "none",
-              }}
-            />
-            <button
-              style={{
-                flex: 1,
-                backgroundColor: "#d0d0d0",
-                border: "none",
-                borderRadius: "34px",
-                padding: "12px",
-                fontSize: "17px",
-                cursor: "pointer",
-              }}
-            >
-              Subscribe
-            </button>
+              <input
+                type="email"
+                placeholder="Email"
+                style={{
+                  flex: 3,
+                  minWidth: 0,
+                  width: "100%",
+                  border: "2px solid black",
+                  borderRadius: "34px",
+                  padding: "12px 16px",
+                  fontSize: "17px",
+                  outline: "none",
+                }}
+              />
+              <button
+                style={{
+                  flex: 1,
+                  minWidth: 0,
+                  backgroundColor: "#d0d0d0",
+                  border: "none",
+                  borderRadius: "34px",
+                  padding: "12px",
+                  fontSize: "17px",
+                  cursor: "pointer",
+                }}
+              >
+                Subscribe
+              </button>
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@ export default function Header() {
         width: "100%",
         backgroundColor: "#ffffff",
         display: "flex",
+        flexWrap: "wrap",
         alignItems: "center",
         padding: "0 100px",
         height: "297px",
