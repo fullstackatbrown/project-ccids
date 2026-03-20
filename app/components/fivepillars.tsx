@@ -1,3 +1,7 @@
+"use client";
+import { motion } from "framer-motion";
+import { use } from "react";
+
 export default function FivePillars() {
   const pillars = [
     ["C", "ontent Standardization"],
@@ -7,7 +11,9 @@ export default function FivePillars() {
     ["S", "cholarship/Education"],
   ];
   return pillars.map(([initial, text], index) => (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
       key={index}
       style={{
         width: "100%",
@@ -37,6 +43,6 @@ export default function FivePillars() {
         </p>
         <p style={{ fontSize: "30px", fontWeight: "bold" }}>{text}</p>
       </div>
-    </div>
+    </motion.div>
   ));
 }

@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 export default function ContactUs() {
   const textStyle = {
     fontSize: "20px",
@@ -24,7 +26,9 @@ export default function ContactUs() {
     height: "61px",
   };
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
       style={{
         width: "100%",
         maxWidth: "1528px",
@@ -88,6 +92,6 @@ export default function ContactUs() {
       <p style={fieldLabelStyle}>
         Please contact us at ...... with any questions!
       </p>
-    </div>
+    </motion.div>
   );
 }

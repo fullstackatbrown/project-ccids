@@ -25,6 +25,7 @@ export default function Home() {
       <UpcomingEvents />
       <h2 style={sectionHeaderStyle}>Contact Us</h2>
       <ContactUs />
+      <div style={{ height: "40px" }}></div>
     </div>
   );
 }

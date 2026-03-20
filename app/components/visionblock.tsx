@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-
+import { motion, AnimatePresence } from "framer-motion";
 export default function VisionBlock() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <section
       style={{
@@ -46,24 +46,35 @@ export default function VisionBlock() {
           {isOpen ? "-" : "+"}
         </button>
       </div>
-      {isOpen && (
-        <>
-          <hr />
-          <br />
-          <p style={{ fontSize: "18px", textAlign: "justify" }}>
-            To lead and collaborate in the development of standards for clinical
-            cancer informatics and genomics; to demonstrate and improve best
-            practices in interoperability of the local data ecosystem that
-            aligns with clinician and informatician workflows; to develop
-            best-in-class natural language processing (NLP) solutions for cancer
-            phenotyping at scale; to identify and promote rapid translational
-            innovations; and train next generation of clinicians and basic
-            researchers in the domain of clinical cancer informatics; through
-            collaboration with stakeholders across Lifespan and Brown
-            University, and the national organizations.
-          </p>
-        </>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <>
+            <hr />
+            <br />
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.25 }}
+              style={{ overflow: "hidden" }}
+            >
+              <p style={{ fontSize: "20px", textAlign: "justify" }}>
+                To lead and collaborate in the development of standards for
+                clinical cancer informatics and genomics; to demonstrate and
+                improve best practices in interoperability of the local data
+                ecosystem that aligns with clinician and informatician
+                workflows; to develop best-in-class natural language processing
+                (NLP) solutions for cancer phenotyping at scale; to identify and
+                promote rapid translational innovations; and train next
+                generation of clinicians and basic researchers in the domain of
+                clinical cancer informatics; through collaboration with
+                stakeholders across Lifespan and Brown University, and the
+                national organizations.
+              </p>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
     </section>
   );
 }

@@ -1,13 +1,22 @@
-//"use client";
+"use client";
 //import { useState } from "react";
-
+import { motion } from "framer-motion";
 export default function TitleImage() {
   return (
-    <div style={{ position: "relative", width: "100%", height: "875px" }}>
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      style={{ position: "relative", width: "100%", height: "875px" }}
+    >
       <img
         src="/images/BrownUniversityCampusPhoto.jpg"
         alt="Brown CCIDS Image"
-        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          objectPosition: "center",
+        }}
       />
       <div style={{ position: "absolute", bottom: "70px" }}>
         <h1
@@ -35,6 +44,6 @@ export default function TitleImage() {
           <br></br>& Data Science at Brown University and affiliated hospitals
         </h3>
       </div>
-    </div>
+    </motion.div>
   );
 }
