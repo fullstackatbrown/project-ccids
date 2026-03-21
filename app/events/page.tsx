@@ -71,7 +71,7 @@ export default function EventsPage() {
           <div className="w-full h-[600px] md:h-[700px] rounded-2xl overflow-hidden shadow-sm border border-gray-200 bg-gray-50">
             <iframe
               // Replace the src string below with your actual Google Calendar embed URL
-              src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York"
+              src="https://www.google.com/calendar/embed?color=%23cabdbf&mode=AGENDA&src=c_bfb1a6b5f0ca1f13ac9d1d002bda36ae849a2d8a3f8e6c238f1a1877321eb75c@group.calendar.google.com"
               style={{ border: 0, width: '100%', height: '100%' }}
               title="CCIDS Events Calendar"
             ></iframe>
