@@ -1,95 +1,59 @@
 "use client";
 import { motion } from "framer-motion";
+
 export default function ContactUs() {
-  const textStyle = {
-    fontSize: "20px",
-    fontWeight: "bold",
-    marginRight: "40px",
-    display: "flex",
-    alignItems: "center",
-  };
-  const fieldLabelStyle = {
-    fontSize: "16px",
-    fontWeight: "bold",
-    marginBottom: "4px",
-    marginTop: "30px",
-  };
-  const inputStyle = {
-    width: "100%",
-    maxWidth: "556px",
-    padding: "12px",
-    borderRadius: "8px",
-    border: "none",
-    display: "block",
-    backgroundColor: "white",
-    marginBottom: "20px",
-    height: "61px",
-  };
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      style={{
-        width: "100%",
-        maxWidth: "1528px",
-        height: "944px",
-        marginLeft: "calc((100vw - 1498px) / 2)",
-        marginTop: "40px",
-        backgroundColor: "var(--primary-light)",
-        color: "black",
-        borderRadius: "60px",
-        padding: "40px 100px",
-      }}
+      className="w-full max-w-[1528px] mx-6 md:mx-auto md:ml-[calc((100vw-1498px)/2)] mt-10 bg-[var(--primary-light)] text-black rounded-3xl md:rounded-[60px] px-6 py-8 md:px-[100px] md:py-10"
     >
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <label style={textStyle}>
+      <div className="flex items-center">
+        <label className="text-base md:text-xl font-bold mr-6 md:mr-10 flex items-center">
           <input
             type="radio"
             name="studentType"
-            style={{ width: "30px", height: "30px", marginRight: "8px" }}
+            className="w-5 h-5 md:w-[30px] md:h-[30px] mr-2"
           />{" "}
           Undergraduate
-        </label>{" "}
-        {/* the name attribute makes sure only one of the options can be selected at a time */}
-        <label style={textStyle}>
+        </label>
+        <label className="text-base md:text-xl font-bold flex items-center">
           <input
             type="radio"
             name="studentType"
-            style={{ width: "30px", height: "30px", marginRight: "8px" }}
+            className="w-5 h-5 md:w-[30px] md:h-[30px] mr-2"
           />{" "}
           Graduate
         </label>
       </div>
-      {/*input section */}
-      <div style={{ height: "30px" }}></div>
-      <p style={fieldLabelStyle}>Name</p>
-      <input type="text" placeholder="Name" style={inputStyle} />
-      <p style={fieldLabelStyle}>Email</p>
-      <input type="text" placeholder="Email" style={inputStyle} />
-      <p style={fieldLabelStyle}>Phone Number</p>
-      <input type="text" placeholder="Phone Number" style={inputStyle} />
-      <p style={fieldLabelStyle}>Message</p>
+      <div className="h-6 md:h-8" />
+      <p className="text-sm md:text-base font-bold mb-1 mt-6">Name</p>
+      <input
+        type="text"
+        placeholder="Name"
+        className="w-full max-w-[556px] p-3 rounded-lg border-none block bg-white mb-4 h-[50px] md:h-[61px]"
+      />
+      <p className="text-sm md:text-base font-bold mb-1 mt-6">Email</p>
+      <input
+        type="text"
+        placeholder="Email"
+        className="w-full max-w-[556px] p-3 rounded-lg border-none block bg-white mb-4 h-[50px] md:h-[61px]"
+      />
+      <p className="text-sm md:text-base font-bold mb-1 mt-6">Phone Number</p>
+      <input
+        type="text"
+        placeholder="Phone Number"
+        className="w-full max-w-[556px] p-3 rounded-lg border-none block bg-white mb-4 h-[50px] md:h-[61px]"
+      />
+      <p className="text-sm md:text-base font-bold mb-1 mt-6">Message</p>
       <textarea
         placeholder="Message"
-        style={{
-          ...inputStyle,
-          height: "190px",
-          resize: "none",
-        }}
+        className="w-full max-w-[556px] p-3 rounded-lg border-none block bg-white mb-4 h-[150px] md:h-[190px] resize-none"
       />
-      <button
-        style={{
-          backgroundColor: "var(--brown)",
-          color: "white",
-          borderRadius: "30px",
-          width: "556px",
-          height: "68px",
-          marginTop: "20px",
-        }}
-      >
+      <button className="bg-[var(--brown)] text-white rounded-full w-full max-w-[556px] h-[50px] md:h-[68px] mt-4 text-sm md:text-base">
         Send Message
       </button>
-      <p style={fieldLabelStyle}>
+      <p className="text-sm md:text-base font-bold mb-1 mt-6">
         Please contact us at ...... with any questions!
       </p>
     </motion.div>
