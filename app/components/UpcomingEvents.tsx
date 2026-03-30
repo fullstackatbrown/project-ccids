@@ -42,7 +42,12 @@ export default function UpcomingEvents() {
       ); // set maxResults to 3 to only get the next 3 events
       const data = await response.json();
       console.log(data);
-      setEvents(data.items || []); // set events to the items array from the response, or an empty array if there are no items
+      const padded = [...(data.items || [])];
+      while (padded.length < 3) {
+        padded.push({ summary: "TBD", start: {}, location: "" });
+      }
+      setEvents(padded);
+      // setEvents(data.items || []); // set events to the items array from the response, or an empty array if there are no items
     };
     fetchEvents();
   }, []);
@@ -102,52 +107,56 @@ export default function UpcomingEvents() {
             >
               {event.summary}
             </h3>
-            <div
-              style={{
-                ...detailStyle,
-                display: "flex",
-                alignItems: "center",
-                gap: "8px",
-                marginBottom: "12px",
-              }}
-            >
-              <Calendar size={20} strokeWidth={3} />
-              <p>
-                {new Date(event.start.dateTime).toLocaleDateString("en-US", {
-                  month: "long",
-                  day: "numeric",
-                  year: "numeric",
-                })}
-              </p>
-            </div>
-            <div
-              style={{
-                ...detailStyle,
-                display: "flex",
-                alignItems: "center",
-                gap: "8px",
-                marginBottom: "12px",
-              }}
-            >
-              <Clock size={20} strokeWidth={3} />
-              <p>
-                {new Date(event.start.dateTime).toLocaleTimeString("en-US", {
-                  hour: "numeric",
-                  minute: "2-digit",
-                })}
-              </p>
-            </div>
-            <div
-              style={{
-                ...detailStyle,
-                display: "flex",
-                alignItems: "center",
-                gap: "8px",
-              }}
-            >
-              <MapPin size={20} strokeWidth={3} />
-              <p>{event.location}</p>
-            </div>
+            {event.start.dateTime && (
+              <div
+                style={{
+                  ...detailStyle,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                }}
+              >
+                <Calendar size={20} strokeWidth={3} />
+                <p>
+                  {new Date(event.start.dateTime).toLocaleDateString("en-US", {
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </p>
+              </div>
+            )}
+            {event.start.dateTime && (
+              <div
+                style={{
+                  ...detailStyle,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                }}
+              >
+                <Clock size={20} strokeWidth={3} />
+                <p>
+                  {new Date(event.start.dateTime).toLocaleTimeString("en-US", {
+                    hour: "numeric",
+                    minute: "2-digit",
+                  })}
+                </p>
+              </div>
+            )}
+            {event.location && (
+              <div
+                style={{
+                  ...detailStyle,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "8px",
+                }}
+              >
+                <MapPin size={20} strokeWidth={3} />
+                <p>{event.location}</p>
+              </div>
+            )}
             <div style={{ height: "100px" }}></div>
           </div>
         ))}
