@@ -40,7 +40,7 @@ const members: Member[] = [
     },
 
     {
-        name: "Alper Uzun, MD",
+        name: "Alper Uzun, MS, PhD",
         role: "Affiliated Members",
         title: "Associate Professor of Pathology and Laboratory Medicine & Associate Professor of Pediatrics, Brown University",
         href: "https://vivo.brown.edu/display/auzun",
@@ -51,7 +51,7 @@ const members: Member[] = [
     {
         name: "Arlen Brickman, MD",
         role: "Affiliated Members",
-        title: "Associate Professor of Pathology and Laboratory Medicine, Brown University",
+        title: "Assistant Professor of Pathology and Laboratory Medicine, Brown University",
         href: "https://vivo.brown.edu/display/abrickma",
         imageSrc: "/members/headshots/abrickma_photo.jpg",
         imageAlt: "photo of Arlen Brickman",
