@@ -33,7 +33,7 @@ const members: Member[] = [
     {
         name: "Sanjay Mishra, MS, PhD",
         role: "Center Coordinator",
-        title: "Associate Professor of Pathology and Laboratory Medicine, Brown University",
+        title: "Research Associate of Medicine, Brown University",
         href: "https://vivo.brown.edu/display/smishr36",
         imageSrc: "/members/headshots/smishr36_photo.jpg",
         imageAlt: "photo of Sanjay Mishra",
@@ -71,7 +71,7 @@ const members: Member[] = [
         role: "Affiliated Members",
         title: "Assistant Professor of Computational Biology, Discipline-Based Education Research (DBER), Brown University",
         href: "https://web.uri.edu/cmb/meet/j-nicholas-fisk/",
-        imageSrc: "/members/headshots/nlc-photo.webp",
+        imageSrc: "/members/headshots/nfisk_photo.png",
         imageAlt: "photo of J. Nicholas Fisk",
     },
 
@@ -80,7 +80,7 @@ const members: Member[] = [
         role: "Affiliated Members",
         title: "Assistant Professor of Radiation Oncology, Brown University",
         href: "https://physicsresidency.med.brown.edu/people/eric-carver-phd-dabr",
-        imageSrc: "/members/headshots/ecarver-photo.webp",
+        imageSrc: "/members/headshots/ecarver_photo.jpg",
         imageAlt: "photo of Eric Carver",
     },
 
@@ -89,7 +89,7 @@ const members: Member[] = [
         role: "Affiliated Members",
         title: "Assistant Professor of Medicine, Brown University",
         href: "https://vivo.brown.edu/display/mhadfiel",
-        imageSrc: "/members/headshots/mhadfiel-photo_.webp",
+        imageSrc: "/members/headshots/mhadfiel_photo_.png",
         imageAlt: "photo of Matthew Hadfield",
     }
 ];
@@ -114,17 +114,19 @@ export default function MembersPage() {
                             </div>
 
                             <div className={styles.info}>
-                                <Link
-                                    href={m.href}
-                                    target = "_blank"
-                                    rel="noopener noreferrer"
-                                    className={styles.name}
-                                >
-                                    {m.name}
-                                </Link>
+                                <div className={styles.meta}>
+                                    <Link
+                                        href={m.href}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={styles.name}
+                                    >
+                                        {m.name}
+                                    </Link>
+                                    <div className={styles.role}>{m.role}</div>
+                                </div>
 
-                                <div className={styles.role}>{m.role}</div>
-                                <div className={styles.title}>{m.title}</div>
+                                <div className={styles.mainTitle}>{m.title}</div>
                             </div>
 
                         </article>
