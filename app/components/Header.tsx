@@ -77,7 +77,7 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="#"
+            href="/newsletters"
             className="flex h-12 w-40 items-center justify-center rounded-full bg-[var(--primary,#027BBF)] text-lg text-white transition-opacity duration-200 hover:opacity-90"
           >
             Newsletters
@@ -121,7 +121,7 @@ export default function Header() {
                 <div className="mx-4 my-2 border-t border-gray-100" />
                 <div className="px-4 py-2">
                   <Link
-                    href="#"
+                    href="/newsletters"
                     className="flex h-10 items-center justify-center rounded-full bg-[var(--primary,#027BBF)] text-base text-white transition-opacity duration-200 hover:opacity-90"
                   >
                     Newsletters
