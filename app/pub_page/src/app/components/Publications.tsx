@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import svgPaths from "../../imports/svg-0wmwxk3hom";
 import imgImage1 from "../../assets/aa0ba0b0f9f26ebda60d30bd5f8141b43b8eeae1.png";
 import imgLogoFooter from "../../assets/58fd56f75ebe98b6835b2040fdd2bab0f7350eaa.png";
@@ -806,7 +809,12 @@ export default function PublicationsPage() {
   return (
     <div style={{ fontFamily: baseFont, background: "#fff", minHeight: "100vh" }}>
       {/* ── HERO / TITLE ── */}
-      <div style={{ textAlign: "center", paddingTop: 64, paddingBottom: 20 }}>
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        style={{ textAlign: "center", paddingTop: 64, paddingBottom: 20 }}
+      >
         <h1
           style={{
             fontFamily: baseFont,
@@ -831,7 +839,7 @@ export default function PublicationsPage() {
         >
           These are selected publications by the CCIDS members. Member names are in bold.
         </p>
-      </div>
+      </motion.div>
 
       {/* ── PUBLICATIONS BODY ── */}
       <main
@@ -845,34 +853,52 @@ export default function PublicationsPage() {
         }}
       >
         {/* 2025 */}
-        <section style={{ marginBottom: 60 }}>
+        <motion.section
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          style={{ marginBottom: 60 }}
+        >
           <YearHeading year="2025" />
           <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 24 }}>
             {pubs2025.map((p) => (
               <PubItem key={p.number} {...p} />
             ))}
           </div>
-        </section>
+        </motion.section>
 
         {/* 2024 */}
-        <section style={{ marginBottom: 60 }}>
+        <motion.section
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          style={{ marginBottom: 60 }}
+        >
           <YearHeading year="2024" />
           <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 24 }}>
             {pubs2024.map((p) => (
               <PubItem key={p.number} {...p} />
             ))}
           </div>
-        </section>
+        </motion.section>
 
         {/* 2023 */}
-        <section style={{ marginBottom: 60 }}>
+        <motion.section
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          style={{ marginBottom: 60 }}
+        >
           <YearHeading year="2023" />
           <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 24 }}>
             {pubs2023.map((p) => (
               <PubItem key={p.number} {...p} />
             ))}
           </div>
-        </section>
+        </motion.section>
       </main>
     </div>
   );

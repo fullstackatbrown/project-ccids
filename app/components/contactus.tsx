@@ -54,7 +54,7 @@ export default function ContactUs() {
         Send Message
       </button>
       <p className="text-sm md:text-base font-bold mb-1 mt-6">
-        Please contact us at ...... with any questions!
+        Please contact us at sanjay_mishra@brown.edu with any questions!
       </p>
     </motion.div>
   );

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, MapPin } from 'lucide-react';
+import { motion } from 'framer-motion';
 // import Navbar from '@/components/Navbar';
 // import Footer from '@/components/Footer';
 
@@ -20,6 +21,7 @@ interface CalendarEvent {
 
 export default function EventsPage() {
   const [featuredEvent, setFeaturedEvent] = useState<CalendarEvent | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchEvents = async () => {
@@ -31,6 +33,8 @@ export default function EventsPage() {
         }
       } catch (error) {
         console.error("Error fetching events:", error);
+      } finally {
+        setIsLoading(false);
       }
     };
     fetchEvents();
@@ -69,15 +73,32 @@ export default function EventsPage() {
       {/* <Navbar /> */}
 
       <main className="flex-grow flex flex-col items-center px-4 sm:px-6 py-8 md:py-20 w-full max-w-6xl mx-auto">
-        
+
         {/* Page Title */}
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#027BBF] mb-8 md:mb-12 text-center w-full">
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#027BBF] mb-8 md:mb-12 text-center w-full"
+        >
           Events
-        </h1>
+        </motion.h1>
+
+        {/* Loading State */}
+        {isLoading && (
+          <div className="w-full flex justify-center py-12">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#027BBF]"></div>
+          </div>
+        )}
 
         {/* Featured Event Section */}
-        {featuredEvent && (
-          <section className="w-full mb-12 md:mb-16 flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-8 bg-gray-50 p-5 sm:p-6 md:p-8 rounded-2xl border border-gray-200 shadow-sm">
+        {!isLoading && featuredEvent && (
+          <motion.section
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="w-full mb-12 md:mb-16 flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-8 bg-gray-50 p-5 sm:p-6 md:p-8 rounded-2xl border border-gray-200 shadow-sm"
+          >
 
             {/* Flyer Image Placeholder */}
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
@@ -127,24 +148,31 @@ export default function EventsPage() {
                 RSVP Now
               </button>
             </div>
-          </section>
+          </motion.section>
         )}
 
-        {/* Google Calendar Embed Section */}
-        <section className="w-full flex flex-col items-center lg:items-start">
-          <h2 className="text-2xl sm:text-3xl font-bold text-black mb-6 sm:mb-8 text-center lg:text-left w-full">
-            Full Events Calendar
-          </h2>
-          
-          {/* Responsive iframe container: Shorter on mobile to prevent scroll trapping */}
-          <div className="w-full h-[450px] sm:h-[600px] md:h-[700px] rounded-xl sm:rounded-2xl overflow-hidden shadow-sm border border-gray-200 bg-gray-50">
-            <iframe
-              src="https://www.google.com/calendar/embed?color=%23cabdbf&mode=AGENDA&src=c_bfb1a6b5f0ca1f13ac9d1d002bda36ae849a2d8a3f8e6c238f1a1877321eb75c@group.calendar.google.com"
-              style={{ border: 0, width: '100%', height: '100%' }}
-              title="CCIDS Events Calendar"
-            ></iframe>
-          </div>
-        </section>
+        {/* Google Calendar Embed Section - only show after loading */}
+        {!isLoading && (
+          <motion.section
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: featuredEvent ? 0.4 : 0.2 }}
+            className="w-full flex flex-col items-center lg:items-start"
+          >
+            <h2 className="text-2xl sm:text-3xl font-bold text-black mb-6 sm:mb-8 text-center lg:text-left w-full">
+              Full Events Calendar
+            </h2>
+
+            {/* Responsive iframe container: Shorter on mobile to prevent scroll trapping */}
+            <div className="w-full h-[450px] sm:h-[600px] md:h-[700px] rounded-xl sm:rounded-2xl overflow-hidden shadow-sm border border-gray-200 bg-gray-50">
+              <iframe
+                src="https://www.google.com/calendar/embed?color=%23cabdbf&mode=AGENDA&src=c_bfb1a6b5f0ca1f13ac9d1d002bda36ae849a2d8a3f8e6c238f1a1877321eb75c@group.calendar.google.com"
+                style={{ border: 0, width: '100%', height: '100%' }}
+                title="CCIDS Events Calendar"
+              ></iframe>
+            </div>
+          </motion.section>
+        )}
 
       </main>
 
