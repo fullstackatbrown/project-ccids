@@ -33,18 +33,6 @@ export default function Header() {
     setIsMobileMenuOpen(false);
   }, [pathname]);
 
-  // Prevent body scroll when mobile menu is open
-  useEffect(() => {
-    if (isMobileMenuOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [isMobileMenuOpen]);
-
   const isActive = (href: string) => {
     if (href === "/") {
       return pathname === "/";
@@ -96,52 +84,54 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* Mobile Menu Button */}
-        <button
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="flex h-10 w-10 items-center justify-center rounded-md text-black transition-colors hover:bg-gray-100 md:hidden"
-          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
-        >
-          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </div>
-
-      {/* Mobile Navigation Overlay */}
-      <div
-        className={`fixed inset-0 top-20 z-40 bg-black/50 transition-opacity duration-300 md:hidden ${
-          isMobileMenuOpen ? "opacity-100" : "pointer-events-none opacity-0"
-        }`}
-        onClick={() => setIsMobileMenuOpen(false)}
-      />
-
-      {/* Mobile Navigation Menu */}
-      <nav
-        className={`fixed left-0 right-0 top-20 z-50 bg-white shadow-lg transition-transform duration-300 ease-in-out md:hidden ${
-          isMobileMenuOpen ? "translate-y-0" : "-translate-y-full"
-        }`}
-      >
-        <div className="flex flex-col px-6 py-4">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`border-b border-gray-100 py-4 text-lg transition-colors duration-200 ${
-                isActive(link.href)
-                  ? "font-bold text-[var(--primary,#027BBF)]"
-                  : "text-black hover:text-[var(--primary,#027BBF)]"
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-          <Link
-            href="#"
-            className="mt-4 flex h-12 items-center justify-center rounded-full bg-[var(--primary,#027BBF)] text-lg text-white transition-opacity duration-200 hover:opacity-90"
+        {/* Mobile Menu Button and Dropdown */}
+        <div className="relative md:hidden">
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="flex h-10 w-10 items-center justify-center rounded-md text-black transition-colors hover:bg-gray-100"
+            aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >
-            Newsletters
-          </Link>
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+
+          {/* Dropdown Box */}
+          {isMobileMenuOpen && (
+            <>
+              {/* Backdrop */}
+              <div
+                className="fixed inset-0 top-20 z-40"
+                onClick={() => setIsMobileMenuOpen(false)}
+              />
+
+              {/* Dropdown Menu */}
+              <nav className="absolute right-0 top-12 z-50 w-56 rounded-lg border border-gray-200 bg-white py-2 shadow-lg">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`block px-4 py-3 text-base transition-colors duration-200 ${
+                      isActive(link.href)
+                        ? "bg-gray-50 font-bold text-[var(--primary,#027BBF)]"
+                        : "text-black hover:bg-gray-50 hover:text-[var(--primary,#027BBF)]"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+                <div className="mx-4 my-2 border-t border-gray-100" />
+                <div className="px-4 py-2">
+                  <Link
+                    href="#"
+                    className="flex h-10 items-center justify-center rounded-full bg-[var(--primary,#027BBF)] text-base text-white transition-opacity duration-200 hover:opacity-90"
+                  >
+                    Newsletters
+                  </Link>
+                </div>
+              </nav>
+            </>
+          )}
         </div>
-      </nav>
+      </div>
     </header>
   );
 }
