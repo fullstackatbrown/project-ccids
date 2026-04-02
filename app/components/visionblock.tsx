@@ -1,69 +1,49 @@
 "use client";
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 export default function VisionBlock() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <section
-      style={{
-        width: "100%",
-        maxWidth: "1498px",
-        padding: "50px 20px 40px 20px",
-        margin: "80px auto 80px auto", //first argument is distance from the image , top right bottom left
-        backgroundColor: "var(--primary-light)",
-        borderRadius: "30px",
-      }}
-    >
-      <div // open div for the title and the button
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
-        <h1
-          style={{
-            fontSize: "2rem",
-            fontWeight: "bold",
-            marginBottom: "20px",
-          }}
-        >
-          Our Vision
-        </h1>
+    <section className="w-full max-w-[1498px] px-5 md:px-8 pt-8 md:pt-12 pb-8 md:pb-10 mx-auto my-10 md:my-20 bg-[var(--primary-light)] rounded-2xl md:rounded-[30px]">
+      <div className="flex justify-between items-center">
+        <h1 className="text-xl md:text-3xl font-bold mb-4">Our Vision</h1>
         <button
           onClick={() => setIsOpen(!isOpen)}
-          style={{
-            width: "40px",
-            height: "40px",
-            borderRadius: "50%",
-            border: "none",
-            backgroundColor: "#ccc",
-            color: "white",
-            fontSize: "18px",
-            cursor: "pointer",
-          }}
+          className="w-10 h-10 rounded-full border-none bg-gray-300 text-white text-lg cursor-pointer"
         >
           {isOpen ? "-" : "+"}
         </button>
       </div>
-      {isOpen && (
-        <>
-          <hr />
-          <br />
-          <p style={{ fontSize: "18px", textAlign: "justify" }}>
-            To lead and collaborate in the development of standards for clinical
-            cancer informatics and genomics; to demonstrate and improve best
-            practices in interoperability of the local data ecosystem that
-            aligns with clinician and informatician workflows; to develop
-            best-in-class natural language processing (NLP) solutions for cancer
-            phenotyping at scale; to identify and promote rapid translational
-            innovations; and train next generation of clinicians and basic
-            researchers in the domain of clinical cancer informatics; through
-            collaboration with stakeholders across Lifespan and Brown
-            University, and the national organizations.
-          </p>
-        </>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <>
+            <hr />
+            <br />
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.25 }}
+              className="overflow-hidden"
+            >
+              <p className="text-base md:text-xl text-justify">
+                To lead and collaborate in the development of standards for
+                clinical cancer informatics and genomics; to demonstrate and
+                improve best practices in interoperability of the local data
+                ecosystem that aligns with clinician and informatician
+                workflows; to develop best-in-class natural language processing
+                (NLP) solutions for cancer phenotyping at scale; to identify and
+                promote rapid translational innovations; and train next
+                generation of clinicians and basic researchers in the domain of
+                clinical cancer informatics; through collaboration with
+                stakeholders across Lifespan and Brown University, and the
+                national organizations.
+              </p>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
     </section>
   );
 }

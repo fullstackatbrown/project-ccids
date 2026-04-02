@@ -1,94 +1,83 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Calendar, Clock, MapPin } from "lucide-react";
+import { motion } from "framer-motion";
 
 export default function UpcomingEvents() {
-  const detailStyle = {
-    fontSize: "16px",
-    fontWeight: "normal",
-    marginBottom: "12px",
-  };
-  const events = [
-    {
-      type: "type1",
-      title: "title1",
-      date: "date1",
-      time: "time1",
-      address: "address1",
-    },
-    {
-      type: "type2",
-      title: "title2",
-      date: "date2",
-      time: "time2",
-      address: "address2",
-    },
-    {
-      type: "type3",
-      title: "title3",
-      date: "date3",
-      time: "time3",
-      address: "address3",
-    },
-  ]; // for later - change this to useState and fetch from backend
+  const [events, setEvents] = useState<any[]>([]);
+  useEffect(() => {
+    const fetchEvents = async () => {
+      const response = await fetch(
+        `https://www.googleapis.com/calendar/v3/calendars/c_bfb1a6b5f0ca1f13ac9d1d002bda36ae849a2d8a3f8e6c238f1a1877321eb75c@group.calendar.google.com/events?maxResults=3&key=${process.env.NEXT_PUBLIC_GOOGLE_API_KEY}&timeMin=${new Date().toISOString()}&orderBy=startTime&singleEvents=true`,
+      );
+      const data = await response.json();
+      const padded = [...(data.items || [])];
+      while (padded.length < 3) {
+        padded.push({ summary: "TBD", start: {}, location: "" });
+      }
+      setEvents(padded);
+    };
+    fetchEvents();
+  }, []);
+
   return (
-    <div style={{ maxWidth: "1498px", margin: "40px auto" }}>
-      {" "}
-      {/*same width as everything else */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "flex-end",
-          alignItems: "center",
-        }}
-      >
-        {" "}
-        {/*flex-end pushes button to the right side */}
-        {/* header and button div */}
-        <button
-          style={{
-            backgroundColor: "var(--primary)",
-            color: "white",
-            width: "229px",
-            height: "68px",
-            borderRadius: "70px",
-          }}
-        >
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      className="max-w-[1498px] mx-auto my-6 md:my-10 px-6 md:px-0"
+    >
+      <div className="flex justify-end items-center">
+        <button className="bg-[var(--primary)] text-white w-[180px] md:w-[229px] h-[50px] md:h-[68px] rounded-full text-sm md:text-base">
           View All Events
         </button>
       </div>
-      <div style={{ height: "40px" }}></div>
-      <div style={{ display: "flex" }}>
-        {" "}
-        {/* flex for each event to make the aligned*/}
+      <div className="h-6 md:h-10" />
+      <div className="flex flex-col md:flex-row">
         {events.map((event, index) => (
           <div
             key={index}
-            style={{
-              flex: 1,
-              borderRight:
-                index < events.length - 1 ? "1px solid #ccc" : "none",
-              paddingRight: "30px",
-              paddingLeft: "30px",
-            }}
+            className={`flex-1 px-4 md:px-8 py-4 md:py-0 ${
+              index < events.length - 1
+                ? "border-b md:border-b-0 md:border-r border-gray-300"
+                : ""
+            }`}
           >
-            {" "}
-            {/* flex: 1 means each event takes equal space */}
-            <h3
-              style={{
-                fontSize: "30px",
-                fontWeight: "bold",
-                marginBottom: "12px",
-              }}
-            >
-              {event.type}: {event.title}
+            <h3 className="text-xl md:text-3xl font-bold mb-3">
+              {event.summary}
             </h3>
-            <p style={detailStyle}>{event.date}</p>
-            <p style={detailStyle}>{event.time}</p>
-            <p style={detailStyle}>{event.address}</p>
-            <div style={{ height: "100px" }}></div>
+            {event.start.dateTime && (
+              <div className="flex items-center gap-2 mb-3 text-sm md:text-lg">
+                <Calendar size={20} strokeWidth={3} />
+                <p>
+                  {new Date(event.start.dateTime).toLocaleDateString("en-US", {
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </p>
+              </div>
+            )}
+            {event.start.dateTime && (
+              <div className="flex items-center gap-2 mb-3 text-sm md:text-lg">
+                <Clock size={20} strokeWidth={3} />
+                <p>
+                  {new Date(event.start.dateTime).toLocaleTimeString("en-US", {
+                    hour: "numeric",
+                    minute: "2-digit",
+                  })}
+                </p>
+              </div>
+            )}
+            {event.location && (
+              <div className="flex items-center gap-2 mb-3 text-sm md:text-lg">
+                <MapPin size={20} strokeWidth={3} />
+                <p>{event.location}</p>
+              </div>
+            )}
+            <div className="h-8 md:h-[100px]" />
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }

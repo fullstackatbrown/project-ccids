@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "framer-motion";
+
 export default function FivePillars() {
   const pillars = [
     ["C", "ontent Standardization"],
@@ -7,36 +10,21 @@ export default function FivePillars() {
     ["S", "cholarship/Education"],
   ];
   return pillars.map(([initial, text], index) => (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
       key={index}
-      style={{
-        width: "100%",
-        maxWidth: "1518px",
-        height: "150px",
-        display: "flex",
-        margin: "30px auto 30px auto",
-        backgroundColor: "var(--gray)",
-        borderRadius: "30px",
-      }}
+      className="w-full max-w-[1518px] h-[100px] md:h-[150px] flex mx-auto my-4 md:my-8 bg-[var(--gray)] rounded-2xl md:rounded-[30px]"
     >
-      <div
-        style={{ display: "flex", alignItems: "center", marginLeft: "20px" }}
-      >
+      <div className="flex items-center ml-4 md:ml-5">
         <p
-          style={{
-            fontSize: "70px",
-            fontWeight: "bold",
-            WebkitTextStroke: "2px var(--primary)",
-            color: "var(--primary)",
-            width: "60px", // to make them all align vertically
-            marginRight: "20px",
-            textAlign: "center", // to make the I align with the rest (and all the initials line up now as well)
-          }}
+          className="text-5xl md:text-7xl font-bold text-[var(--primary)] w-[40px] md:w-[60px] mr-3 md:mr-5 text-center"
+          style={{ WebkitTextStroke: "2px var(--primary)" }}
         >
           {initial}
         </p>
-        <p style={{ fontSize: "30px", fontWeight: "bold" }}>{text}</p>
+        <p className="text-lg md:text-3xl font-bold">{text}</p>
       </div>
-    </div>
+    </motion.div>
   ));
 }

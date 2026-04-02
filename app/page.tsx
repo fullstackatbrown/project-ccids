@@ -4,27 +4,35 @@ import FivePillars from "./components/fivepillars";
 import UpcomingEvents from "./components/UpcomingEvents";
 import ContactUs from "./components/contactus";
 
-const sectionHeaderStyle = {
-  fontSize: "35px",
-  fontWeight: "bold",
-  WebkitTextStroke: "0.5px",
-  borderLeft: "8px solid var(--primary)",
-  paddingLeft: "12px",
-  marginLeft: "calc((100vw - 1498px) / 2)",
-};
 export default function Home() {
   return (
     <div>
       <TitleImage />
       <VisionBlock />
-      <h2 style={sectionHeaderStyle}>CCIDS is built around 5 pillars:</h2>
-      <div style={{ height: "30px" }}></div>
+      <h2
+        className="text-2xl md:text-4xl font-bold border-l-[8px] border-[var(--primary)] pl-3 mx-6 md:mx-auto md:max-w-[1498px]"
+        style={{ WebkitTextStroke: "0.5px" }}
+      >
+        CCIDS is built around 5 pillars:
+      </h2>
+      <div className="h-8" />
       <FivePillars />
-      <div style={{ height: "30px" }}></div>
-      <h2 style={sectionHeaderStyle}>Upcoming Events</h2>
+      <div className="h-8" />
+      <h2
+        className="text-2xl md:text-4xl font-bold border-l-[8px] border-[var(--primary)] pl-3 mx-6 md:mx-auto md:max-w-[1498px]"
+        style={{ WebkitTextStroke: "0.5px" }}
+      >
+        Upcoming Events
+      </h2>
       <UpcomingEvents />
-      <h2 style={sectionHeaderStyle}>Contact Us</h2>
+      <h2
+        className="text-2xl md:text-4xl font-bold border-l-[8px] border-[var(--primary)] pl-3 mx-6 md:mx-auto md:max-w-[1498px]"
+        style={{ WebkitTextStroke: "0.5px" }}
+      >
+        Contact Us
+      </h2>
       <ContactUs />
+      <div className="h-10" />
     </div>
   );
 }
