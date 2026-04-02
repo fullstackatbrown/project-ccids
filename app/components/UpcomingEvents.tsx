@@ -7,15 +7,22 @@ export default function UpcomingEvents() {
   const [events, setEvents] = useState<any[]>([]);
   useEffect(() => {
     const fetchEvents = async () => {
-      const response = await fetch(
-        `https://www.googleapis.com/calendar/v3/calendars/c_bfb1a6b5f0ca1f13ac9d1d002bda36ae849a2d8a3f8e6c238f1a1877321eb75c@group.calendar.google.com/events?maxResults=3&key=${process.env.NEXT_PUBLIC_GOOGLE_API_KEY}&timeMin=${new Date().toISOString()}&orderBy=startTime&singleEvents=true`,
-      );
-      const data = await response.json();
-      const padded = [...(data.items || [])];
-      while (padded.length < 3) {
-        padded.push({ summary: "TBD", start: {}, location: "" });
+      try {
+        const response = await fetch("/api/events");
+        const data = await response.json();
+        const padded = [...(data.items || [])];
+        while (padded.length < 3) {
+          padded.push({ summary: "TBD", start: {}, location: "" });
+        }
+        setEvents(padded);
+      } catch (error) {
+        console.error("Error fetching events:", error);
+        setEvents([
+          { summary: "TBD", start: {}, location: "" },
+          { summary: "TBD", start: {}, location: "" },
+          { summary: "TBD", start: {}, location: "" },
+        ]);
       }
-      setEvents(padded);
     };
     fetchEvents();
   }, []);
