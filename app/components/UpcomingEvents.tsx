@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Calendar, Clock, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function UpcomingEvents() {
   const [events, setEvents] = useState<any[]>([]);
@@ -34,9 +35,12 @@ export default function UpcomingEvents() {
       className="max-w-[1498px] mx-auto my-6 md:my-10 px-6 md:px-0"
     >
       <div className="flex justify-end items-center">
-        <button className="bg-[var(--primary)] text-white w-[180px] md:w-[229px] h-[50px] md:h-[68px] rounded-full text-sm md:text-base">
+        <Link
+          href="/events"
+          className="bg-[var(--primary)] text-white w-[180px] md:w-[229px] h-[50px] md:h-[68px] rounded-full text-sm md:text-base flex items-center justify-center hover:opacity-90 transition-opacity"
+        >
           View All Events
-        </button>
+        </Link>
       </div>
       <div className="h-6 md:h-10" />
       <div className="flex flex-col md:flex-row">

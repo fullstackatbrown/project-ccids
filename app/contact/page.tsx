@@ -11,26 +11,7 @@ export default function ContactPage() {
         whileInView={{ opacity: 1, y: 0 }}
         className="w-full max-w-[600px] bg-[var(--primary-light)] text-black rounded-3xl md:rounded-[60px] px-6 py-8 md:px-12 md:py-10"
       >
-        <div className="flex items-center">
-          <label className="text-base md:text-xl font-bold mr-6 md:mr-10 flex items-center">
-            <input
-              type="radio"
-              name="studentType"
-              className="w-5 h-5 md:w-[30px] md:h-[30px] mr-2"
-            />{" "}
-            Undergraduate
-          </label>
-          <label className="text-base md:text-xl font-bold flex items-center">
-            <input
-              type="radio"
-              name="studentType"
-              className="w-5 h-5 md:w-[30px] md:h-[30px] mr-2"
-            />{" "}
-            Graduate
-          </label>
-        </div>
-        <div className="h-6 md:h-8" />
-        <p className="text-sm md:text-base font-bold mb-1 mt-6">Name</p>
+        <p className="text-sm md:text-base font-bold mb-1">Name</p>
         <input
           type="text"
           placeholder="Name"

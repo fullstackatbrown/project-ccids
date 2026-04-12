@@ -68,6 +68,25 @@ export default function EventsPage() {
     return start;
   };
 
+  const cleanDescription = (html: string) => {
+    // Remove HTML tags and decode entities
+    let text = html
+      .replace(/<br\s*\/?>/gi, '\n')
+      .replace(/<\/p>/gi, '\n')
+      .replace(/<[^>]*>/g, '')
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'");
+
+    // Clean up multiple newlines and trim
+    text = text.replace(/\n{3,}/g, '\n\n').trim();
+
+    return text;
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-black font-sans">
       {/* <Navbar /> */}
@@ -97,20 +116,9 @@ export default function EventsPage() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="w-full mb-12 md:mb-16 flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-8 bg-gray-50 p-5 sm:p-6 md:p-8 rounded-2xl border border-gray-200 shadow-sm"
+            className="w-full mb-12 md:mb-16 bg-gray-50 p-5 sm:p-6 md:p-8 rounded-2xl border border-gray-200 shadow-sm"
           >
-
-            {/* Flyer Image Placeholder */}
-            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-              {/* max-w-[280px] ensures it doesn't bleed off small screens like the iPhone SE */}
-              <div className="w-full max-w-[280px] sm:max-w-sm aspect-[3/4] bg-white rounded-xl flex flex-col items-center justify-center text-gray-500 border-2 border-dashed border-gray-300 shadow-sm">
-                <span className="text-base sm:text-lg font-medium mb-1 text-center px-2">Featured Flyer</span>
-                <span className="text-xs sm:text-sm text-center">(Insert Image Here)</span>
-              </div>
-            </div>
-
-            {/* Featured Event Details */}
-            <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left mt-2 lg:mt-0">
+            <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
               <div className="inline-block bg-[#027BBF] text-white text-[10px] sm:text-xs tracking-wider uppercase font-bold px-3 py-1 rounded-full w-max mb-3 sm:mb-4">
                 Upcoming
               </div>
@@ -139,8 +147,8 @@ export default function EventsPage() {
               </div>
 
               {featuredEvent.description && (
-                <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed max-w-prose">
-                  {featuredEvent.description}
+                <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed max-w-prose whitespace-pre-line">
+                  {cleanDescription(featuredEvent.description)}
                 </p>
               )}
 

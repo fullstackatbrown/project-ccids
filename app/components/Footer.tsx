@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Linkedin, Facebook, Twitter } from "lucide-react";
 
 const navLinks = [
   { href: "#", label: "Join Us" },
@@ -37,52 +36,12 @@ export default function Footer() {
               </Link>
             ))}
           </nav>
-
-          {/* Social Icons */}
-          <div className="flex items-center gap-4">
-            <Link
-              href="#"
-              className="text-white transition-opacity duration-200 hover:opacity-80"
-              aria-label="LinkedIn"
-            >
-              <Linkedin size={24} />
-            </Link>
-            <Link
-              href="#"
-              className="text-white transition-opacity duration-200 hover:opacity-80"
-              aria-label="Facebook"
-            >
-              <Facebook size={24} />
-            </Link>
-            <Link
-              href="#"
-              className="text-white transition-opacity duration-200 hover:opacity-80"
-              aria-label="Twitter"
-            >
-              <Twitter size={24} />
-            </Link>
-          </div>
         </div>
 
-        {/* Bottom Row */}
-        <div className="flex w-full flex-col items-center gap-6 md:flex-row md:items-center md:gap-8">
-          {/* Contact Info */}
-          <div className="text-center md:text-left">
-            <p className="text-lg font-semibold text-white">Contact Us</p>
-            <p className="text-base text-white">Email: sanjay_mishra@brown.edu</p>
-          </div>
-
-          {/* Subscribe Box */}
-          <div className="flex w-full max-w-md flex-1 items-center gap-3 rounded-3xl bg-white p-4 md:ml-auto md:p-6">
-            <input
-              type="email"
-              placeholder="Email"
-              className="min-w-0 flex-[3] rounded-full border-2 border-black px-4 py-2 text-base outline-none focus:border-[var(--primary,#027BBF)]"
-            />
-            <button className="min-w-0 flex-1 cursor-pointer rounded-full bg-[var(--primary,#027BBF)] px-4 py-2 text-base text-white transition-opacity duration-200 hover:opacity-90">
-              Subscribe
-            </button>
-          </div>
+        {/* Contact Info */}
+        <div className="text-center md:text-left">
+          <p className="text-lg font-semibold text-white">Contact Us</p>
+          <p className="text-base text-white">Email: sanjay_mishra@brown.edu</p>
         </div>
       </div>
 
