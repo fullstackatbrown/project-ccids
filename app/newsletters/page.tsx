@@ -2,12 +2,6 @@
 
 import { motion } from "framer-motion";
 
-interface SeminarEntry {
-  speakers: string;
-  title: string;
-  date: string;
-}
-
 interface GrantEntry {
   title: string;
   details?: string;
@@ -16,44 +10,6 @@ interface GrantEntry {
 interface HonorEntry {
   content: string;
 }
-
-const seminars: SeminarEntry[] = [
-  {
-    speakers: "Jeremy L. Warner MD, MS and Ece Uzun, MS, PhD",
-    title: "A Vision for Cancer Informatics at Brown and Lifespan.",
-    date: "March 13, Launch",
-  },
-  {
-    speakers: "David A. Braun, MD, PhD",
-    title: "Computational approaches to cancer immunotherapy.",
-    date: "April 17",
-  },
-  {
-    speakers: "Catherine J. Wu, MD",
-    title: "Single-cell sequencing in CLL in Blood.",
-    date: "May 22",
-  },
-  {
-    speakers: "Danielle S. Bitterman, MD",
-    title: "NLP for Radiation Oncology.",
-    date: "June 12",
-  },
-  {
-    speakers: "Zeynep H. Gumus, PhD",
-    title: "Rare germline variants in cancer risk and tumor characteristics.",
-    date: "Aug 21",
-  },
-  {
-    speakers: "Leo Anthony Celi, MD, MPH, MSc",
-    title: "The Data Scientist as an Activist for Health Equity.",
-    date: "September 18",
-  },
-  {
-    speakers: "Harry Hochheiser, PhD and Guergana Savova, PhD",
-    title: "Cancer Deep Phenotyping",
-    date: "December 11",
-  },
-];
 
 const grants: GrantEntry[] = [
   {
@@ -119,19 +75,6 @@ function SectionHeading({ title }: { title: string }) {
   );
 }
 
-function SeminarItem({ speakers, title, date }: SeminarEntry) {
-  return (
-    <div className="flex gap-4 items-start">
-      <span className="text-[#027BBF] font-bold text-lg flex-shrink-0 min-w-[24px]">
-        •
-      </span>
-      <p className="text-base text-black leading-relaxed">
-        <strong>{speakers}</strong> "{title}" ({date})
-      </p>
-    </div>
-  );
-}
-
 function GrantItem({ title, details }: GrantEntry) {
   return (
     <div className="flex gap-4 items-start">
@@ -166,32 +109,13 @@ export default function NewslettersPage() {
         transition={{ duration: 0.5 }}
         className="text-center pt-16 pb-5"
       >
-        <h1 className="text-4xl md:text-5xl font-bold text-[#027BBF] mb-6">
-          Accomplishments of the CCIDS Members
+        <h1 className="text-4xl md:text-5xl font-bold text-[#027BBF]">
+          Highlights from Our Members
         </h1>
-        <p className="text-base text-black max-w-3xl mx-auto px-6">
-          Highlights from our members including seminars, grants, and honors.
-        </p>
       </motion.div>
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-6 md:px-8 py-10">
-        {/* CCIDS Seminar Series */}
-        <motion.section
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-16"
-        >
-          <SectionHeading title="CCIDS Seminar Series" />
-          <div className="flex flex-col gap-5 mt-6">
-            {seminars.map((seminar, index) => (
-              <SeminarItem key={index} {...seminar} />
-            ))}
-          </div>
-        </motion.section>
-
         {/* Grants */}
         <motion.section
           initial={{ opacity: 0, y: 50 }}

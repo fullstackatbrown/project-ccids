@@ -48,14 +48,14 @@ export default function Header() {
     >
       <div className="flex h-20 items-center justify-between px-6 md:px-12 lg:px-24">
         {/* Logo */}
-        <Link href="/" className="flex-shrink-0">
+        <Link href="/" className="flex-shrink-0 h-full py-2">
           <Image
             src="/img/CCIDS.png"
             alt="CCIDS Logo"
             width={200}
             height={31}
             priority
-            className="h-8 w-auto"
+            className="h-full w-auto"
           />
         </Link>
 

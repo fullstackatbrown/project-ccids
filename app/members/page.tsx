@@ -16,22 +16,50 @@ type Member = {
 
 const members: Member[] = [
   {
-    name: "Jeremy L. Warner, MD, MS, FAMIA, FASCO",
-    role: "Director",
-    title: "Professor of Medicine & Professor of Biostatistics, Brown University",
-    href: "https://vivo.brown.edu/display/jwarne11",
-    imageSrc: "/members/headshots/jwarne11_photo.jpg",
-    imageAlt: "photo of Jeremy L. Warner",
+    name: "Arlen Brickman, MD",
+    role: "Affiliated Member",
+    title:
+      "Assistant Professor of Pathology and Laboratory Medicine, Brown University",
+    href: "https://vivo.brown.edu/display/abrickma",
+    imageSrc: "/members/headshots/abrickma_photo.jpg",
+    imageAlt: "photo of Arlen Brickman",
   },
 
   {
-    name: "Ece (Gamsiz) Uzun, MS, PhD, FAMIA",
-    role: "Deputy Director",
+    name: "Eric Carver, PhD, DABR",
+    role: "Affiliated Member",
+    title: "Assistant Professor of Radiation Oncology, Brown University",
+    href: "https://physicsresidency.med.brown.edu/people/eric-carver-phd-dabr",
+    imageSrc: "/members/headshots/ecarver_photo.jpg",
+    imageAlt: "photo of Eric Carver",
+  },
+
+  {
+    name: "J. Nicholas Fisk, PhD",
+    role: "Affiliated Member",
     title:
-      "Associate Professor of Pathology and Laboratory Medicine, Brown University",
-    href: "https://vivo.brown.edu/display/dgamsiz",
-    imageSrc: "/members/headshots/dgamsiz_photo.jpg",
-    imageAlt: "photo of Ece (Gamsiz) Uzun",
+      "Assistant Professor of Computational Biology, Discipline-Based Education Research (DBER), Brown University",
+    href: "https://web.uri.edu/cmb/meet/j-nicholas-fisk/",
+    imageSrc: "/members/headshots/nfisk_photo.png",
+    imageAlt: "photo of J. Nicholas Fisk",
+  },
+
+  {
+    name: "Matthew Hadfield, MD",
+    role: "Affiliated Member",
+    title: "Assistant Professor of Medicine, Brown University",
+    href: "https://vivo.brown.edu/display/mhadfiel",
+    imageSrc: "/members/headshots/mhadfiel_photo_.png",
+    imageAlt: "photo of Matthew Hadfield",
+  },
+
+  {
+    name: "Zhicheng Jiao, PhD",
+    role: "Affiliated Member",
+    title: "Assistant Professor of Diagnostic Imaging, Brown University",
+    href: "https://radiology.med.brown.edu/people/zhicheng-jiao-phd",
+    imageSrc: "/members/headshots/jiao_photo.jpg",
+    imageAlt: "photo of Zhicheng Jiao",
   },
 
   {
@@ -45,7 +73,7 @@ const members: Member[] = [
 
   {
     name: "Alper Uzun, MS, PhD",
-    role: "Affiliated Members",
+    role: "Affiliated Member",
     title:
       "Associate Professor of Pathology and Laboratory Medicine & Associate Professor of Pediatrics, Brown University",
     href: "https://vivo.brown.edu/display/auzun",
@@ -54,50 +82,22 @@ const members: Member[] = [
   },
 
   {
-    name: "Arlen Brickman, MD",
-    role: "Affiliated Members",
+    name: "Ece (Gamsiz) Uzun, MS, PhD, FAMIA",
+    role: "Deputy Director",
     title:
-      "Assistant Professor of Pathology and Laboratory Medicine, Brown University",
-    href: "https://vivo.brown.edu/display/abrickma",
-    imageSrc: "/members/headshots/abrickma_photo.jpg",
-    imageAlt: "photo of Arlen Brickman",
+      "Associate Professor of Pathology and Laboratory Medicine, Brown University",
+    href: "https://vivo.brown.edu/display/dgamsiz",
+    imageSrc: "/members/headshots/dgamsiz_photo.jpg",
+    imageAlt: "photo of Ece (Gamsiz) Uzun",
   },
 
   {
-    name: "Zhicheng Jiao, PhD",
-    role: "Affiliated Members",
-    title: "Assistant Professor of Diagnostic Imaging, Brown University",
-    href: "https://radiology.med.brown.edu/people/zhicheng-jiao-phd",
-    imageSrc: "/members/headshots/jiao_photo.jpg",
-    imageAlt: "photo of Zhicheng Jiao",
-  },
-
-  {
-    name: "J. Nicholas Fisk, PhD",
-    role: "Affiliated Members",
-    title:
-      "Assistant Professor of Computational Biology, Discipline-Based Education Research (DBER), Brown University",
-    href: "https://web.uri.edu/cmb/meet/j-nicholas-fisk/",
-    imageSrc: "/members/headshots/nfisk_photo.png",
-    imageAlt: "photo of J. Nicholas Fisk",
-  },
-
-  {
-    name: "Eric Carver, PhD, DABR",
-    role: "Affiliated Members",
-    title: "Assistant Professor of Radiation Oncology, Brown University",
-    href: "https://physicsresidency.med.brown.edu/people/eric-carver-phd-dabr",
-    imageSrc: "/members/headshots/ecarver_photo.jpg",
-    imageAlt: "photo of Eric Carver",
-  },
-
-  {
-    name: "Matthew Hadfield, MD",
-    role: "Affiliated Members",
-    title: "Assistant Professor of Medicine, Brown University",
-    href: "https://vivo.brown.edu/display/mhadfiel",
-    imageSrc: "/members/headshots/mhadfiel_photo_.png",
-    imageAlt: "photo of Matthew Hadfield",
+    name: "Jeremy L. Warner, MD, MS, FAMIA, FASCO",
+    role: "Director",
+    title: "Professor of Medicine & Professor of Biostatistics, Brown University",
+    href: "https://vivo.brown.edu/display/jwarne11",
+    imageSrc: "/members/headshots/jwarne11_photo.jpg",
+    imageAlt: "photo of Jeremy L. Warner",
   },
 ];
 

@@ -19,6 +19,50 @@ interface CalendarEvent {
   location?: string;
 }
 
+interface SeminarEntry {
+  speakers: string;
+  title: string;
+  date: string;
+}
+
+const pastSeminars: SeminarEntry[] = [
+  {
+    speakers: "Jeremy L. Warner MD, MS and Ece Uzun, MS, PhD",
+    title: "A Vision for Cancer Informatics at Brown and Lifespan.",
+    date: "March 13, Launch",
+  },
+  {
+    speakers: "David A. Braun, MD, PhD",
+    title: "Computational approaches to cancer immunotherapy.",
+    date: "April 17",
+  },
+  {
+    speakers: "Catherine J. Wu, MD",
+    title: "Single-cell sequencing in CLL in Blood.",
+    date: "May 22",
+  },
+  {
+    speakers: "Danielle S. Bitterman, MD",
+    title: "NLP for Radiation Oncology.",
+    date: "June 12",
+  },
+  {
+    speakers: "Zeynep H. Gumus, PhD",
+    title: "Rare germline variants in cancer risk and tumor characteristics.",
+    date: "Aug 21",
+  },
+  {
+    speakers: "Leo Anthony Celi, MD, MPH, MSc",
+    title: "The Data Scientist as an Activist for Health Equity.",
+    date: "September 18",
+  },
+  {
+    speakers: "Harry Hochheiser, PhD and Guergana Savova, PhD",
+    title: "Cancer Deep Phenotyping",
+    date: "December 11",
+  },
+];
+
 export default function EventsPage() {
   const [featuredEvent, setFeaturedEvent] = useState<CalendarEvent | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -178,6 +222,34 @@ export default function EventsPage() {
                 style={{ border: 0, width: '100%', height: '100%' }}
                 title="CCIDS Events Calendar"
               ></iframe>
+            </div>
+          </motion.section>
+        )}
+
+        {/* Past Events Section */}
+        {!isLoading && (
+          <motion.section
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: featuredEvent ? 0.6 : 0.4 }}
+            className="w-full mt-12 md:mt-16"
+          >
+            <h2 className="text-2xl sm:text-3xl font-bold text-black mb-6 sm:mb-8 text-center lg:text-left">
+              Past Events
+            </h2>
+
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-[#027BBF] mb-4">CCIDS Seminar Series</h3>
+              <div className="space-y-4">
+                {pastSeminars.map((seminar, index) => (
+                  <div key={index} className="flex gap-4 items-start">
+                    <span className="text-[#027BBF] font-bold text-lg flex-shrink-0">•</span>
+                    <p className="text-base text-black leading-relaxed">
+                      <strong>{seminar.speakers}</strong> &quot;{seminar.title}&quot; ({seminar.date})
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </motion.section>
         )}

@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
-  { href: "#", label: "Join Us" },
+  { href: "/contact", label: "Join Us" },
   { href: "/members", label: "Members" },
   { href: "/events", label: "Events" },
-  { href: "#", label: "News" },
+  { href: "/newsletters", label: "News" },
   { href: "/publications", label: "Publications" },
 ];
 
@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-8 md:flex-row md:items-center md:gap-10">
           {/* Logo */}
           <Image
-            src="/img/CCIDS.png"
+            src="/img/CCIDS-white.png"
             alt="CCIDS Logo"
             width={617}
             height={97}
@@ -52,14 +52,11 @@ export default function Footer() {
       <div className="flex items-center justify-center px-6 py-6 text-center">
         <p className="text-sm font-medium text-white">
           &copy; 2026{" "}
-          <Link href="#" className="text-white hover:underline">
+          <Link href="/" className="text-white hover:underline">
             Center for Clinical Cancer Informatics and Data Science (CCIDS) at
             Brown University
           </Link>
-          . All Rights Reserved.{" "}
-          <Link href="#" className="text-white hover:underline">
-            Privacy Policy
-          </Link>
+          . All Rights Reserved.
         </p>
       </div>
     </footer>
