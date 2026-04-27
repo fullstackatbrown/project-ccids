@@ -46,7 +46,7 @@ export default function Header() {
         isScrolled ? "shadow-md" : ""
       }`}
     >
-      <div className="flex h-20 items-center justify-between px-6 md:px-12 lg:px-24">
+      <div className="flex h-14 md:h-20 items-center justify-between px-6 md:px-12 lg:px-24">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0 h-full py-2">
           <Image
@@ -99,7 +99,7 @@ export default function Header() {
             <>
               {/* Backdrop */}
               <div
-                className="fixed inset-0 top-20 z-40"
+                className="fixed inset-0 top-14 z-40"
                 onClick={() => setIsMobileMenuOpen(false)}
               />
 

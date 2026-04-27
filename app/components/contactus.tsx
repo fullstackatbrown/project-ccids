@@ -183,7 +183,7 @@ export default function ContactUs() {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      className="w-full max-w-[1528px] mx-6 md:mx-auto md:ml-[calc((100vw-1498px)/2)] mt-10 bg-[var(--primary-light)] text-black rounded-3xl md:rounded-[60px] px-6 py-8 md:px-[100px] md:py-10"
+      className="w-[calc(100%-3rem)] max-w-[1528px] mx-auto md:ml-[calc((100vw-1498px)/2)] mt-10 bg-[var(--primary-light)] text-black rounded-3xl md:rounded-[60px] px-6 py-8 md:px-[100px] md:py-10"
     >
       <div className="flex flex-col lg:flex-row lg:gap-16">
         {/* Form Section */}

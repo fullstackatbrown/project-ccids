@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "CCIDS - Center for Clinical Cancer Informatics and Data Science",
   description: "Center for Clinical Cancer Informatics and Data Science at Brown University",
+  icons: {
+    icon: "/img/Brown-logo.png",
+  },
 };
 
 export default function RootLayout({

@@ -196,9 +196,14 @@ export default function EventsPage() {
                 </p>
               )}
 
-              <button className="bg-[#027BBF] hover:bg-[#026299] text-white font-bold py-3 px-8 rounded-lg transition-colors w-full sm:w-max shadow-sm text-sm sm:text-base">
+              <a
+                href="https://calget.com/e/ccids-may2026-seminar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#027BBF] hover:bg-[#026299] text-white font-bold py-3 px-8 rounded-lg transition-colors w-full sm:w-max shadow-sm text-sm sm:text-base inline-block text-center"
+              >
                 RSVP Now
-              </button>
+              </a>
             </div>
           </motion.section>
         )}
