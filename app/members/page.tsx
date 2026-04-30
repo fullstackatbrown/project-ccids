@@ -1,30 +1,17 @@
-"use client";
+import { getMembers } from "@/sanity/lib/queries";
+import { urlFor } from "@/sanity/lib/image";
+import MembersList from "./MembersList";
+import type { MemberData } from "./MembersList";
 
-import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import styles from "./members.module.css";
-
-type Member = {
-  name: string;
-  title: string;
-  role: string;
-  href: string;
-  imageSrc: string;
-  imageAlt: string;
-};
-
-const members: Member[] = [
+const fallbackMembers: MemberData[] = [
   {
     name: "Arlen Brickman, MD",
     role: "Affiliated Member",
-    title:
-      "Assistant Professor of Pathology and Laboratory Medicine, Brown University",
+    title: "Assistant Professor of Pathology and Laboratory Medicine, Brown University",
     href: "https://vivo.brown.edu/display/abrickma",
     imageSrc: "/members/headshots/abrickma_photo.jpg",
     imageAlt: "photo of Arlen Brickman",
   },
-
   {
     name: "Eric Carver, PhD, DABR",
     role: "Affiliated Member",
@@ -33,17 +20,14 @@ const members: Member[] = [
     imageSrc: "/members/headshots/ecarver_photo.jpg",
     imageAlt: "photo of Eric Carver",
   },
-
   {
     name: "J. Nicholas Fisk, PhD",
     role: "Affiliated Member",
-    title:
-      "Assistant Professor of Computational Biology, Discipline-Based Education Research (DBER), Brown University",
+    title: "Assistant Professor of Computational Biology, Discipline-Based Education Research (DBER), Brown University",
     href: "https://web.uri.edu/cmb/meet/j-nicholas-fisk/",
     imageSrc: "/members/headshots/nfisk_photo.png",
     imageAlt: "photo of J. Nicholas Fisk",
   },
-
   {
     name: "Matthew Hadfield, MD",
     role: "Affiliated Member",
@@ -52,7 +36,6 @@ const members: Member[] = [
     imageSrc: "/members/headshots/mhadfiel_photo_.png",
     imageAlt: "photo of Matthew Hadfield",
   },
-
   {
     name: "Zhicheng Jiao, PhD",
     role: "Affiliated Member",
@@ -61,7 +44,6 @@ const members: Member[] = [
     imageSrc: "/members/headshots/jiao_photo.jpg",
     imageAlt: "photo of Zhicheng Jiao",
   },
-
   {
     name: "Sanjay Mishra, MS, PhD",
     role: "Center Coordinator",
@@ -70,27 +52,22 @@ const members: Member[] = [
     imageSrc: "/members/headshots/smishr36_photo.jpg",
     imageAlt: "photo of Sanjay Mishra",
   },
-
   {
     name: "Alper Uzun, MS, PhD",
     role: "Affiliated Member",
-    title:
-      "Associate Professor of Pathology and Laboratory Medicine & Associate Professor of Pediatrics, Brown University",
+    title: "Associate Professor of Pathology and Laboratory Medicine & Associate Professor of Pediatrics, Brown University",
     href: "https://vivo.brown.edu/display/auzun",
     imageSrc: "/members/headshots/auzun_photo.jpg",
     imageAlt: "photo of Alper Uzun",
   },
-
   {
     name: "Ece (Gamsiz) Uzun, MS, PhD, FAMIA",
     role: "Deputy Director",
-    title:
-      "Associate Professor of Pathology and Laboratory Medicine, Brown University",
+    title: "Associate Professor of Pathology and Laboratory Medicine, Brown University",
     href: "https://vivo.brown.edu/display/dgamsiz",
     imageSrc: "/members/headshots/dgamsiz_photo.jpg",
     imageAlt: "photo of Ece (Gamsiz) Uzun",
   },
-
   {
     name: "Jeremy L. Warner, MD, MS, FAMIA, FASCO",
     role: "Director",
@@ -101,83 +78,26 @@ const members: Member[] = [
   },
 ];
 
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
+export default async function MembersPage() {
+  let members: MemberData[] = fallbackMembers;
 
-const itemVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    },
-  },
-};
+  try {
+    const sanityMembers = await getMembers();
+    if (sanityMembers && sanityMembers.length > 0) {
+      members = sanityMembers.map(
+        (m: { name: string; role: string; title: string; photo?: unknown; href?: string }) => ({
+          name: m.name,
+          role: m.role,
+          title: m.title,
+          href: m.href || "#",
+          imageSrc: m.photo ? urlFor(m.photo).width(168).height(168).url() : "/members/headshots/placeholder.jpg",
+          imageAlt: `photo of ${m.name}`,
+        })
+      );
+    }
+  } catch {
+    // Sanity fetch failed — use fallback
+  }
 
-export default function MembersPage() {
-  return (
-    <main className={styles.page}>
-      <section className={styles.section} aria-labelledby="members-title">
-        <motion.h1
-          id="members-title"
-          className={styles.title}
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-        >
-          Members
-        </motion.h1>
-
-        <motion.div
-          className={styles.list}
-          variants={containerVariants}
-          initial="hidden"
-          animate="visible"
-        >
-          {members.map((m) => (
-            <motion.article
-              key={m.name}
-              className={styles.card}
-              variants={itemVariants}
-            >
-              <div className={styles.avatar}>
-                <Image
-                  src={m.imageSrc}
-                  alt={m.imageAlt}
-                  width={84}
-                  height={84}
-                  className={styles.avatarImg}
-                />
-              </div>
-
-              <div className={styles.info}>
-                <div className={styles.meta}>
-                  <Link
-                    href={m.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.name}
-                  >
-                    {m.name}
-                  </Link>
-                  <div className={styles.role}>{m.role}</div>
-                </div>
-
-                <div className={styles.mainTitle}>{m.title}</div>
-              </div>
-            </motion.article>
-          ))}
-        </motion.div>
-      </section>
-    </main>
-  );
+  return <MembersList members={members} />;
 }

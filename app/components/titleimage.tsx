@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function TitleImage() {
   return (
@@ -8,10 +9,13 @@ export default function TitleImage() {
       whileInView={{ opacity: 1, y: 0 }}
       className="relative w-full h-[400px] md:h-[875px]"
     >
-      <img
-        src="/images/BrownUniversityCampusPhoto.jpg"
-        alt="Brown CCIDS Image"
-        className="w-full h-full object-cover object-center"
+      <Image
+        src="/images/BrownUniversityCampusPhoto.webp"
+        alt="Aerial view of Brown University campus"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-center"
       />
       <div className="absolute bottom-8 md:bottom-[70px]">
         <h1 className="text-2xl md:text-6xl font-bold text-white ml-6 md:ml-[100px] leading-tight">

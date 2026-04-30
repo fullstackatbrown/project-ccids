@@ -10,7 +10,7 @@ const ENTRY_EMAIL = "entry.991356529";
 const ENTRY_PHONE = "entry.689456755";
 const ENTRY_MESSAGE = "entry.1918472259";
 
-type Member = {
+export type CarouselMember = {
   name: string;
   title: string;
   role: string;
@@ -25,7 +25,7 @@ type FormData = {
   hp_check: string; // honeypot - named obscurely to avoid browser autofill
 };
 
-const members: Member[] = [
+const fallbackMembers: CarouselMember[] = [
   {
     name: "Arlen Brickman, MD",
     role: "Affiliated Member",
@@ -108,7 +108,8 @@ function Spinner() {
   );
 }
 
-export default function ContactUs() {
+export default function ContactUs({ members: membersProp }: { members?: CarouselMember[] }) {
+  const members = membersProp && membersProp.length > 0 ? membersProp : fallbackMembers;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -129,12 +130,8 @@ export default function ContactUs() {
   }, []);
 
   const onSubmit = async (data: FormData) => {
-    console.log("[Home Form] Submit handler fired");
-    console.log("[Home Form] Honeypot value:", JSON.stringify(data.hp_check));
-
     // Honeypot check - if filled, fake success to fool bots
     if (data.hp_check) {
-      console.log("[Home Form] Honeypot was filled - skipping fetch (bot detected)");
       setIsSuccess(true);
       return;
     }
@@ -148,19 +145,13 @@ export default function ContactUs() {
       formBody.append(ENTRY_PHONE, data.phone || "");
       formBody.append(ENTRY_MESSAGE, data.message);
 
-      console.log("[Home Form] Posting to:", GOOGLE_FORM_ACTION_URL);
-
       await fetch(GOOGLE_FORM_ACTION_URL, {
         method: "POST",
         body: formBody,
         mode: "no-cors",
-      })
-        .then(() => {
-          console.log("[Home Form] Fetch resolved successfully (no-cors)");
-        })
-        .catch((err) => {
-          console.error("[Home Form] Fetch rejected:", err);
-        });
+      }).catch((err) => {
+        console.error("[Home Form] Fetch rejected:", err);
+      });
 
       setIsSuccess(true);
     } catch (err) {
@@ -201,7 +192,6 @@ export default function ContactUs() {
                 <input
                   type="text"
                   id="home_hp_check"
-                  name="hp_check"
                   tabIndex={-1}
                   autoComplete="new-password"
                   {...register("hp_check")}

@@ -33,6 +33,8 @@ export default function Header() {
     setIsMobileMenuOpen(false);
   }, [pathname]);
 
+  if (pathname.startsWith("/studio")) return null;
+
   const isActive = (href: string) => {
     if (href === "/") {
       return pathname === "/";

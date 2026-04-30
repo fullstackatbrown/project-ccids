@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+export const revalidate = 300;
+
 const CALENDAR_ID =
   "c_bfb1a6b5f0ca1f13ac9d1d002bda36ae849a2d8a3f8e6c238f1a1877321eb75c@group.calendar.google.com";
 
@@ -27,8 +29,15 @@ export async function GET() {
     }
 
     const data = await response.json();
-    return NextResponse.json({ items: data.items || [] });
-  } catch (error) {
+    return NextResponse.json(
+      { items: data.items || [] },
+      {
+        headers: {
+          "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600",
+        },
+      }
+    );
+  } catch {
     return NextResponse.json(
       { error: "Failed to fetch events" },
       { status: 500 }

@@ -2,7 +2,7 @@ import VisionBlock from "./components/visionblock";
 import TitleImage from "./components/titleimage";
 import FivePillars from "./components/fivepillars";
 import UpcomingEvents from "./components/UpcomingEvents";
-import ContactUs from "./components/contactus";
+import ContactUsWrapper from "./components/ContactUsWrapper";
 
 export default function Home() {
   return (
@@ -31,7 +31,7 @@ export default function Home() {
       >
         Contact Us
       </h2>
-      <ContactUs />
+      <ContactUsWrapper />
       <div className="h-10" />
     </div>
   );

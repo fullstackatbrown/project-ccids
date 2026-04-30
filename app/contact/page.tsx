@@ -57,12 +57,8 @@ export default function ContactPage() {
   });
 
   const onSubmit = async (data: FormData) => {
-    console.log("[Contact Form] Submit handler fired");
-    console.log("[Contact Form] Honeypot value:", JSON.stringify(data.hp_check));
-
     // Honeypot check - if filled, fake success to fool bots
     if (data.hp_check) {
-      console.log("[Contact Form] Honeypot was filled - skipping fetch (bot detected)");
       setIsSuccess(true);
       setStatusMessage("Thanks! Sanjay will be in touch soon.");
       return;
@@ -78,19 +74,13 @@ export default function ContactPage() {
       formBody.append(ENTRY_PHONE, data.phone || "");
       formBody.append(ENTRY_MESSAGE, data.message);
 
-      console.log("[Contact Form] Posting to:", GOOGLE_FORM_ACTION_URL);
-
       await fetch(GOOGLE_FORM_ACTION_URL, {
         method: "POST",
         body: formBody,
         mode: "no-cors",
-      })
-        .then(() => {
-          console.log("[Contact Form] Fetch resolved successfully (no-cors)");
-        })
-        .catch((err) => {
-          console.error("[Contact Form] Fetch rejected:", err);
-        });
+      }).catch((err) => {
+        console.error("[Contact Form] Fetch rejected:", err);
+      });
 
       // With no-cors we can't read the response, so assume success
       setIsSuccess(true);
@@ -168,7 +158,6 @@ export default function ContactPage() {
               <input
                 type="text"
                 id="hp_check"
-                name="hp_check"
                 tabIndex={-1}
                 autoComplete="new-password"
                 {...register("hp_check")}

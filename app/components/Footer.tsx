@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/contact", label: "Join Us" },
@@ -10,6 +12,9 @@ const navLinks = [
 ];
 
 export default function Footer() {
+  const pathname = usePathname();
+  if (pathname.startsWith("/studio")) return null;
+
   return (
     <footer className="w-full rounded-t-[34px] bg-[var(--primary,#027BBF)] flex flex-col">
       <div className="flex flex-1 flex-col gap-8 px-6 pt-12 pb-8 md:px-12 lg:px-24">
