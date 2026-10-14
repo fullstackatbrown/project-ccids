@@ -23,6 +23,9 @@ export interface SeminarEntry {
   date: string;
 }
 
+// RSVP link comes from the Google Calendar event's description
+const CALGET_URL = /https?:\/\/(?:www\.)?calget\.com\/[^\s"'<>&]+/i;
+
 export default function EventsClient({ pastSeminars }: { pastSeminars: SeminarEntry[] }) {
   const [featuredEvent, setFeaturedEvent] = useState<CalendarEvent | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -71,6 +74,8 @@ export default function EventsClient({ pastSeminars }: { pastSeminars: SeminarEn
     }
     return start;
   };
+
+  const rsvpUrl = featuredEvent?.description?.match(CALGET_URL)?.[0];
 
   const cleanDescription = (html: string) => {
     let text = html
@@ -150,14 +155,16 @@ export default function EventsClient({ pastSeminars }: { pastSeminars: SeminarEn
                 </p>
               )}
 
-              <a
-                href="https://calget.com/e/ccids-may2026-seminar"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-[#027BBF] hover:bg-[#026299] text-white font-bold py-3 px-8 rounded-lg transition-colors w-full sm:w-max shadow-sm text-sm sm:text-base inline-block text-center"
-              >
-                RSVP Now
-              </a>
+              {rsvpUrl && (
+                <a
+                  href={rsvpUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#027BBF] hover:bg-[#026299] text-white font-bold py-3 px-8 rounded-lg transition-colors w-full sm:w-max shadow-sm text-sm sm:text-base inline-block text-center"
+                >
+                  RSVP Now
+                </a>
+              )}
             </div>
           </motion.section>
         )}
