@@ -203,7 +203,7 @@ export default function EventsClient({ pastSeminars }: { pastSeminars: SeminarEn
                   <div key={index} className="flex gap-4 items-start">
                     <span className="text-[#027BBF] font-bold text-lg flex-shrink-0">&bull;</span>
                     <p className="text-base text-black leading-relaxed">
-                      <strong>{seminar.speakers}</strong> &quot;{seminar.title}&quot; ({seminar.date})
+                      <strong>{seminar.speakers}</strong> &quot;{seminar.title}&quot;{seminar.date && ` (${seminar.date})`}
                     </p>
                   </div>
                 ))}

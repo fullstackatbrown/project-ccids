@@ -1,4 +1,4 @@
-import PublicationsPage from "../pub_page/src/app/components/Publications";
+import PublicationsPage from "./Publications";
 
 export default function Publications() {
   return <PublicationsPage />;

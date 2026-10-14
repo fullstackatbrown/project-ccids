@@ -109,7 +109,7 @@ function Spinner() {
 }
 
 export default function ContactUs({ members: membersProp }: { members?: CarouselMember[] }) {
-  const members = membersProp && membersProp.length > 0 ? membersProp : fallbackMembers;
+  const members = membersProp ?? fallbackMembers;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -123,11 +123,12 @@ export default function ContactUs({ members: membersProp }: { members?: Carousel
   });
 
   useEffect(() => {
+    if (members.length === 0) return;
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % members.length);
     }, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, [members.length]);
 
   const onSubmit = async (data: FormData) => {
     // Honeypot check - if filled, fake success to fool bots
@@ -281,6 +282,7 @@ export default function ContactUs({ members: membersProp }: { members?: Carousel
         </div>
 
         {/* Members Carousel - Desktop Only */}
+        {currentMember && (
         <div className="hidden lg:flex flex-1 items-center justify-center">
           <div className="flex flex-col items-center text-center w-full max-w-[556px]">
             <p className="text-2xl font-bold text-black mb-6">Our Members</p>
@@ -331,6 +333,7 @@ export default function ContactUs({ members: membersProp }: { members?: Carousel
             </div>
           </div>
         </div>
+        )}
       </div>
     </motion.div>
   );

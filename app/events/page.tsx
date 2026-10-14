@@ -41,21 +41,22 @@ const fallbackSeminars: SeminarEntry[] = [
 ];
 
 export default async function EventsPage() {
-  let seminars: SeminarEntry[] = fallbackSeminars;
+  let seminars: SeminarEntry[];
 
   try {
     const sanitySeminars = await getSeminars();
-    if (sanitySeminars && sanitySeminars.length > 0) {
-      seminars = sanitySeminars.map(
-        (s: { speaker: string; title: string; dateLabel?: string; date: string }) => ({
-          speakers: s.speaker,
-          title: s.title,
-          date: s.dateLabel || new Date(s.date).toLocaleDateString("en-US", { month: "long", day: "numeric" }),
-        })
-      );
-    }
+    seminars = sanitySeminars.map(
+      (s: { speaker: string; title: string; dateLabel?: string; date?: string }) => ({
+        speakers: s.speaker,
+        title: s.title,
+        date:
+          s.dateLabel ||
+          (s.date ? new Date(s.date).toLocaleDateString("en-US", { month: "long", day: "numeric" }) : ""),
+      })
+    );
   } catch {
-    // Sanity fetch failed — use fallback
+    // Sanity fetch failed — use fallback (an empty list from Sanity is shown as empty)
+    seminars = fallbackSeminars;
   }
 
   return <EventsClient pastSeminars={seminars} />;

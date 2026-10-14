@@ -23,16 +23,16 @@ export default defineType({
       type: "string",
     }),
     defineField({
+      name: "dateLabel",
+      title: "Date label",
+      type: "string",
+      description: 'Shown on the site as-is, e.g. "March 13, Launch"',
+    }),
+    defineField({
       name: "date",
       title: "Date",
       type: "datetime",
-      validation: (rule) => rule.required(),
-    }),
-    defineField({
-      name: "dateLabel",
-      title: "Date Display Label",
-      type: "string",
-      description: 'Optional label shown on the site, e.g. "March 13, Launch"',
+      description: "Optional. Only used if Date label is empty.",
     }),
     defineField({
       name: "description",
@@ -50,24 +50,32 @@ export default defineType({
       title: "Slides URL",
       type: "url",
     }),
+    defineField({
+      name: "order",
+      title: "Order",
+      type: "number",
+      description: "Lower numbers appear first",
+    }),
   ],
   orderings: [
     {
-      title: "Date (newest first)",
-      name: "dateDesc",
-      by: [{ field: "date", direction: "desc" }],
+      title: "Order",
+      name: "orderAsc",
+      by: [{ field: "order", direction: "asc" }],
     },
   ],
   preview: {
     select: {
       title: "title",
       subtitle: "speaker",
+      dateLabel: "dateLabel",
       date: "date",
     },
-    prepare({ title, subtitle, date }) {
+    prepare({ title, subtitle, dateLabel, date }) {
+      const when = dateLabel || (date ? new Date(date).toLocaleDateString() : "");
       return {
         title: title || "Untitled",
-        subtitle: `${subtitle || ""}${date ? ` — ${new Date(date).toLocaleDateString()}` : ""}`,
+        subtitle: `${subtitle || ""}${when ? ` — ${when}` : ""}`,
       };
     },
   },

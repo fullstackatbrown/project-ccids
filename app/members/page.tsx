@@ -79,24 +79,23 @@ const fallbackMembers: MemberData[] = [
 ];
 
 export default async function MembersPage() {
-  let members: MemberData[] = fallbackMembers;
+  let members: MemberData[];
 
   try {
     const sanityMembers = await getMembers();
-    if (sanityMembers && sanityMembers.length > 0) {
-      members = sanityMembers.map(
-        (m: { name: string; role: string; title: string; photo?: unknown; href?: string }) => ({
-          name: m.name,
-          role: m.role,
-          title: m.title,
-          href: m.href || "#",
-          imageSrc: m.photo ? urlFor(m.photo).width(168).height(168).url() : "/members/headshots/placeholder.jpg",
-          imageAlt: `photo of ${m.name}`,
-        })
-      );
-    }
+    members = sanityMembers.map(
+      (m: { name: string; role: string; title: string; photo?: unknown; href?: string }) => ({
+        name: m.name,
+        role: m.role,
+        title: m.title,
+        href: m.href || "#",
+        imageSrc: m.photo ? urlFor(m.photo).width(168).height(168).url() : "/members/headshots/placeholder.jpg",
+        imageAlt: `photo of ${m.name}`,
+      })
+    );
   } catch {
-    // Sanity fetch failed — use fallback
+    // Sanity fetch failed — use fallback (an empty list from Sanity is shown as empty)
+    members = fallbackMembers;
   }
 
   return <MembersList members={members} />;

@@ -1,9 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import svgPaths from "../../imports/svg-0wmwxk3hom";
-import imgImage1 from "../../assets/aa0ba0b0f9f26ebda60d30bd5f8141b43b8eeae1.png";
-import imgLogoFooter from "../../assets/58fd56f75ebe98b6835b2040fdd2bab0f7350eaa.png";
+import svgPaths from "./svgPaths";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 

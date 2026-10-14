@@ -17,7 +17,7 @@ export async function getMembers() {
 }
 
 // ---------- Seminars ----------
-export const seminarsQuery = `*[_type == "seminar"] | order(date desc) {
+export const seminarsQuery = `*[_type == "seminar"] | order(order asc, date desc) {
   _id,
   title,
   speaker,
@@ -26,7 +26,8 @@ export const seminarsQuery = `*[_type == "seminar"] | order(date desc) {
   dateLabel,
   description,
   recordingUrl,
-  slidesUrl
+  slidesUrl,
+  order
 }`;
 
 export async function getSeminars() {
