@@ -1,0 +1,3134 @@
+[
+  {
+    "year": 2025,
+    "order": 10,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k1",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k0",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.lana.2025.101038"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k2",
+            "text": "Lin EPY, Hsu CY, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k3",
+            "text": "Mishra S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4",
+            "text": ", […], ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6",
+            "text": "*, Shyr Y*, on behalf of the COVID-19 and Cancer Consortium. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7",
+            "text": "Associations of COVID-19 vaccination with risks for post-infectious cardiovascular complications: an international cohort study in cancer patients with SARS-CoV-2 infection",
+            "marks": [
+              "k0"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8",
+            "text": ". Lancet Reg Health Am. 2025 Mar 6;44:101038. doi: 10.1016/j.lana.2025.101038. PMID: 40124588; PMCID: PMC11930098.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 20,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "ka",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k9",
+            "_type": "link",
+            "href": "https://doi.org/10.1093/narcan/zcae047"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kb",
+            "text": "Ahn B, Chou C, Chou C, Chen J, Zug A, Baykara Y, Claus J, Hacking SM, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kc",
+            "text": "Uzun A, Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kd",
+            "text": ".",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "ke",
+            "text": " The Atlas of Protein-Protein Interactions in Cancer (APPIC)-a webtool to visualize and analyze cancer subtypes",
+            "marks": [
+              "k9"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kf",
+            "text": ". NAR Cancer. 2025 Jan 15;7(1):zcae047. doi: 10.1093/narcan/zcae047. PMID: 39822275; PMCID: PMC11734624.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 30,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kh",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "kg",
+            "_type": "link",
+            "href": "https://doi.org/10.18632/oncotarget.28703"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "ki",
+            "text": "El-Deiry WS, Bresson C, Wunder F, Carneiro BA, Dizon DS, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kj",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kk",
+            "text": ", et al. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kl",
+            "text": "Worldwide Innovative Network (WIN) Consortium in Personalized Cancer Medicine: Bringing next-generation precision oncology to patients",
+            "marks": [
+              "kg"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "km",
+            "text": ". Oncotarget. 2025 Mar 12;16:140-162. doi: 10.18632/oncotarget.28703. PMID: 40073368; PMCID: PMC11907938.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 40,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kp",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "kn",
+            "_type": "link",
+            "href": "https://doi.org/10.17226/28676"
+          },
+          {
+            "_key": "ko",
+            "_type": "link",
+            "href": "https://doi.org/10.17226/28676"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kq",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kr",
+            "text": " \"Lessons From the COVID-19 and Cancer Consortium\" in National Cancer Policy Forum, Board on Health Care Services, Health and Medicine Division, & National Academies of Sciences, Engineering, and Medicine. (2025). ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "ks",
+            "text": "Enabling 21st Century Applications for Cancer Surveillance Through Enhanced Registries and Beyond: Proceedings of a Workshop",
+            "marks": [
+              "kn"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kt",
+            "text": " (F. Amankwah, T. Wizemann, & S. Nass, Eds). National Academies Press. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "ku",
+            "text": "https://doi.org/10.17226/28676",
+            "marks": [
+              "ko"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 50,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kv",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kw",
+            "text": "Menville JE, Shinde N, Collins S, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kx",
+            "text": "Jiao Z",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "ky",
+            "text": ", Persad-Paisley EM, Baranwal N, Woo AS. Craniosynostosis: Quantifying Differences in Skull Architecture. Cleft Palate Craniofac J. 2025 Jan 19:10556656241297526. doi: 10.1177/10556656241297526. Epub ahead of print. PMID: 39828920.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 60,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k10",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "kz",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/39850579/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k11",
+            "text": "Crawford JM, Penberthy L, Pinto LA, Althoff KN, Assimon MM, Cohen O, Gillim L, Hammonds TL, Kapur S, Kaufman HW, Kwasny D, Liew JW, Meyer WA 3rd, Reynolds SL, Schleicher CB, Subbiah S, Theruviparampil C, Wallace ZS, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k12",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k13",
+            "text": ", Yoon S, Ziemba YC. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k14",
+            "text": "Coronavirus Disease 2019 (COVID-19) Real World Data Infrastructure: A Big-Data Resource for Study of the Impact of COVID-19 in Patient Populations With Immunocompromising Conditions",
+            "marks": [
+              "kz"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k15",
+            "text": ". Open Forum Infect Dis. 2025 Jan 23;12(1):ofaf021. doi: 10.1093/ofid/ofaf021. eCollection 2025 Jan. PMID: 39850579.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 70,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k17",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k16",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/39848867/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k18",
+            "text": "Naqvi SAA, Riaz IB, Bibi A, Khan MA, Imran M, Khakwani KZR, Raina A, Anjum MU, Cobran EK, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k19",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1a",
+            "text": ", Hussain SA, Singh P, Childs DS, Baca SC, Orme JJ, Mateo J, Agarwal N, Gillessen S, Murad MH, Sartor O, Bryce AH. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k1b",
+            "text": "Heterogeneity of the Treatment Effect with PARP Inhibitors in Metastatic Castration-resistant Prostate Cancer: A Living Interactive Systematic Review and Meta-analysis.",
+            "marks": [
+              "k16"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1c",
+            "text": " Eur Urol. 2025 Jan 22:S0302-2838(24)02760-X. doi: 10.1016/j.eururo.2024.12.007. Online ahead of print. PMID: 39848867.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 80,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k1e",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k1d",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/39836495/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k1f",
+            "text": "Khan MA, Ayub U, Naqvi SAA, Khakwani KZR, Sipra ZBR, Raina A, Zhou S, He H, Saeidi A, Hasan B, Rumble RB, Bitterman DS, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k1g",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1h",
+            "text": ", Zou J, Tevaarwerk AJ, Leventakos K, Kehl KL, Palmer JM, Murad MH, Baral C, Riaz IB. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k1i",
+            "text": "Collaborative large language models for automated data extraction in living systematic reviews.",
+            "marks": [
+              "k1d"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1j",
+            "text": " J Am Med Inform Assoc. 2025 Jan 21:ocae325. doi: 10.1093/jamia/ocae325. Online ahead of print. PMID: 39836495",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 90,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k1l",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k1k",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/39194340/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k1m",
+            "text": "Hong YD, Enewold L, Sharon E, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k1n",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1o",
+            "text": ", Davidoff AJ, Zeruto C, Mariotto AB. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k1p",
+            "text": "Evolving patterns in systemic treatment utilization and survival among older patients with advanced cutaneous melanoma.",
+            "marks": [
+              "k1k"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1q",
+            "text": " Cancer Med. 2024 Aug;13(16):e70131. doi: 10.1002/cam4.70131. PMID: 39194340",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 100,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k1s",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k1r",
+            "_type": "link",
+            "href": "https://doi.org/10.1093/narcan/zcae047"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k1t",
+            "text": "Ahn B, Chou C, Chou C, Chen J, Zug A, Baykara Y, Claus J, Hacking SM, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k1u",
+            "text": "Uzun A, Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1v",
+            "text": ".",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k1w",
+            "text": " The Atlas of Protein-Protein Interactions in Cancer (APPIC)-a webtool to visualize and analyze cancer subtypes",
+            "marks": [
+              "k1r"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k1x",
+            "text": ". NAR Cancer. 2025 Jan 15;7(1):zcae047. doi: 10.1093/narcan/zcae047. eCollection 2025 Mar. PMID: 39822275",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 110,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k1z",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k1y",
+            "_type": "link",
+            "href": "https://doi.org/10.1162/99608f92.d622eaff"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k20",
+            "text": "Hilty EC, Vilski V, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k21",
+            "text": "Mishra S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k22",
+            "text": ", Condon P, Gracia SM. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k23",
+            "text": "Building an Inclusive Data Literacy Community.",
+            "marks": [
+              "k1y"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k24",
+            "text": " Harvard Data Science Review 2025 Jan 30;7(1). doi: 10.1162/99608f92.d622eaff",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "order": 120,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k25",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k26",
+            "text": "Li Y, Imami MR, Zhao L, Amindarolzarbi A, Mena E, Leal J, Chen J, Gafita A, Voter AF, Li X, Du Y, Zhu C, Choyke PL, Zou B, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k27",
+            "text": "Jiao Z",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k28",
+            "text": ", Rowe SP, Pomper MG, Bai HX. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k29",
+            "text": "An Automated Deep Learning-Based Framework for Uptake Segmentation and Classification on PSMA PET/CT Imaging of Patients with Prostate Cancer",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k2a",
+            "text": ". J Imaging Inform Med. 2024 Oct;37(5):2206-2215. doi: 10.1007/s10278-024-01104-y. Epub 2024 Apr 8. PMID: 38587770; PMCID: PMC11522269.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 10,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k2c",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k2b",
+            "_type": "link",
+            "href": "https://doi.org/10.1158/2159-8290.CD-24-1130"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k2d",
+            "text": "Gomez F, Danos AM, Del Fiol G, Madabhushi A, Tiwari P, McMichael JF, Bakas S, Bian J, Davatzikos C, Fertig EJ, Kalpathy-Cramer J, Kenney J, Savova GK, Yetisgen M, Van Allen EM, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k2e",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k2f",
+            "text": ", Prior F, Griffith M, Griffith OL. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k2g",
+            "text": "A New Era of Data-Driven Cancer Research and Care: Opportunities and Challenges",
+            "marks": [
+              "k2b"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k2h",
+            "text": ". Cancer Discov. 2024 Oct 4;14(10):1774-1778. doi: 10.1158/2159-8290.CD-24-1130. PMID: 39363742; PMCID: PMC11463721.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 20,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k2j",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k2i",
+            "_type": "link",
+            "href": "https://doi.org/10.1007/s00520-024-08706-2"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k2k",
+            "text": "Guermazi D, Arvanitis P, Vieira K, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k2l",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k2m",
+            "text": ", Farmakiotis D. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k2n",
+            "text": "Oral antivirals for COVID-19 among patients with cancer",
+            "marks": [
+              "k2i"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k2o",
+            "text": ". Supportive Care in Cancer. 2024 Jul 9;32(8):496. PMID: 38980433.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 30,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k2q",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k2p",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.imu.2024.101589"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k2r",
+            "text": "Lee K, Paek H, Huang LC, Hilton CB, Datta S, Higashi J, Ofoegbu N, Wang J, Rubinstein SM, Cowan AJ, Kwok M, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k2s",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k2t",
+            "text": ", Xu H, Wang X. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k2u",
+            "text": "SEETrials: Leveraging Large Language Models for Safety and Efficacy Extraction in Oncology Clinical Trials",
+            "marks": [
+              "k2p"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k2v",
+            "text": ". Informatics in Medicine Unlocked. 2024 Oct 11;50:101589. PMCID: PMC11530223.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 40,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k2x",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k2w",
+            "_type": "link",
+            "href": "https://doi.org/10.1080/28322134.2024.2431501"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k2y",
+            "text": "Munoz E, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k2z",
+            "text": "VanHelene AD",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k30",
+            "text": ", Yang NT, Ramirez AG (2024). ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k31",
+            "text": "CancerClarity app: Enhancing cancer data visualization with AI-generated narratives",
+            "marks": [
+              "k2w"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k32",
+            "text": ". Preventive Oncology & Epidemiology, 3(1). doi:10.1080/28322134.2024.2431501",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 50,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k34",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k33",
+            "_type": "link",
+            "href": "https://doi.org/10.1038/s41598-024-66991-9"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k35",
+            "text": "Song Q, Ni C, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k36",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k37",
+            "text": ", Chen Q, Song L, Rosenbloom ST, Malin BA, Yin Z. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k38",
+            "text": "Optimizing word embeddings for small dataset: a case study on patient portal messages from breast cancer patients",
+            "marks": [
+              "k33"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k39",
+            "text": ". Scientific Reports. 2024 Jul 12;14(1):16117. PMID: 38997332; PMCID: PMC11245534.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 60,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k3b",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k3a",
+            "_type": "link",
+            "href": "https://doi.org/10.1136/bmjonc-2024-000410"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k3c",
+            "text": "VanHelene AD*, Hadfield MJ*",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3d",
+            "text": ", Trapani D, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k3e",
+            "text": "Warner JL#, Lythgoe MP#",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3f",
+            "text": ". \"",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k3g",
+            "text": "As bleak as it sounds? Analysing trends in oncology clinical trial initiation in the UK from 2010 to 2022",
+            "marks": [
+              "k3a"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3h",
+            "text": "\" BMJ Oncol. 2024 Aug 14;3(1):e000410. doi: 10.1136/bmjonc-2024-000410. eCollection 2024. PMID: 39886121 (VanHelene and Hadfield co-first authors.; Warner and Lythgoe co-last authors)",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 70,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k3j",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k3i",
+            "_type": "link",
+            "href": "https://doi.org/10.1371/journal.pdig.0000456"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k3k",
+            "text": "VanHelene AD",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3l",
+            "text": ", Khatri I, Hilton CB, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k3m",
+            "text": "Mishra S, Gamsiz Uzun ED, Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3n",
+            "text": ". ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k3o",
+            "text": "Inferring gender from first names: Comparing the accuracy of Genderize, Gender API, and the gender R package on authors of diverse nationality",
+            "marks": [
+              "k3i"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3p",
+            "text": ". PLOS Digit Health. 2024 Oct 29;3(10):e0000456. doi: 0.1371/journal.pdig.0000456. PMID: 39471154; PMCID: PMC11521266.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 80,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k3r",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k3q",
+            "_type": "link",
+            "href": "https://doi.org/10.1371/journal.pcbi.1012468"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k3s",
+            "text": "Wu Q, Morrow EM, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k3t",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3u",
+            "text": ". ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k3v",
+            "text": "A deep learning model for prediction of autism status using whole-exome sequencing data",
+            "marks": [
+              "k3q"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k3w",
+            "text": ". PLoS Comput Biol. 2024 Nov 8;20(11):e1012468. doi: 10.1371/journal.pcbi.1012468. PMID: 39514604; PMCID: PMC11578481.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 90,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k3y",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k3x",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/38584070/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k3z",
+            "text": "Hadfield MJ, Benjamin DJ, Krell J, Warner J, Lythgoe MP. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k40",
+            "text": "The evolving posology and administration of immune checkpoint inhibitors: subcutaneous formulations",
+            "marks": [
+              "k3x"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k41",
+            "text": ". Trends in Cancer. 2024 Apr 6. Epub ahead of print. PMID: 38584070.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 100,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k43",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k42",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/38758559/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k44",
+            "text": "Burus T*, VanHelene AD*, Rooney MK, Lang Kuhs KA, Christian WJ, McNair C, Mishra S, Paulino AC, Smith GL, Frank SJ, Warner JL. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k45",
+            "text": "Travel-Time Disparities in Access to Proton Beam Therapy for Cancer Treatment",
+            "marks": [
+              "k42"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k46",
+            "text": ". JAMA Network Open. 2024 May 1;7(5):e2410670. PMID: 38758559.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 110,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k48",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k47",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/38885475/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k49",
+            "text": "Zuo X, Kumar A, Shen S, Li J, Cong G, Jin E, Chen Q, Warner JL, Yang P, Xu H. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k4a",
+            "text": "Extracting Systemic Anticancer Therapy and Response Information from Clinical Notes Following the RECIST Definition",
+            "marks": [
+              "k47"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4b",
+            "text": ". JCO Clinical Cancer Informatics. 2024 Jun;8:e2300166. PMID: 38885475.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 120,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k4d",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k4c",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/38148283/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k4e",
+            "text": "Bishay S, Robb WH, Schwartz TM, Smith DS, Lee LH, Lynn CJ, Clark TL, Jefferson AL, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k4f",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4g",
+            "text": ", Rosenthal EL, Murphy BA, Hohman TJ, Koran MEI. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k4h",
+            "text": "Frontal and anterior temporal hypometabolism post chemoradiation in head and neck cancer: A real-world PET study",
+            "marks": [
+              "k4c"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4i",
+            "text": ". Journal of Neuroimaging. Mar-Apr;34(2):211-216. doi: 10.1111/jon.13181. Epub 2023 Dec 26. PMID: 38148283.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 130,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k4k",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k4j",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/38343793/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k4l",
+            "text": "Guermazi D, Arvanitis P, Vieira K, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k4m",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4n",
+            "text": ", Farmakiotis D. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k4o",
+            "text": "Oral antivirals for COVID-19 among patients with cancer",
+            "marks": [
+              "k4j"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4p",
+            "text": ". Res Sq [Preprint]. 2024 Jan 24:rs.3.rs-3876022. PMID: 38343793; PMCID: PMC10854279.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "order": 140,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k4r",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k4q",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/38269846/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k4s",
+            "text": "Zack T, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k4t",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4u",
+            "text": ". ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k4v",
+            "text": "Introducing a Comprehensive Score of Systemic Anticancer Treatment Relevance",
+            "marks": [
+              "k4q"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k4w",
+            "text": ". Studies in Health Technology & Informatics. 2024 Jan 25;310:464-468. PMID: 38269846; PMCID: PMC10909246.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 10,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k4y",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k4x",
+            "_type": "link",
+            "href": "https://doi.org/10.1158/1055-9965.epi-22-0876"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k4z",
+            "text": "Egan PC, Jani C, Singh H, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k50",
+            "text": "Mishra S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k51",
+            "text": ", ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k52",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k53",
+            "text": ". ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k54",
+            "text": "The Importance of Recency of Cancer Diagnosis in Patients Hospitalized with COVID-19-Glimpses from an EHR-based Study",
+            "marks": [
+              "k4x"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k55",
+            "text": ". Cancer Epidemiology, Biomarkers & Prevention. 2023 Jan 9;32(1):3-5.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 20,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k57",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k56",
+            "_type": "link",
+            "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9906077/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k58",
+            "text": "De Souza A, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k59",
+            "text": "Charissa C",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5a",
+            "text": ", Mega AE, Douglass J, Olszewski A, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5b",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5c",
+            "text": ", ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5d",
+            "text": "Uzun A",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5e",
+            "text": ", Duan F, Wang J, Amin A, Golijanin D, Holder S, Lagos G, Safran H, El-Deiry WS, Carneiro BA. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5f",
+            "text": "Clinical features of patients with MTAP-deleted bladder cancer",
+            "marks": [
+              "k56"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5g",
+            "text": ". American Journal of Cancer Research. 2023 Jan 15;13(1):326-339.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 30,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k5i",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k5h",
+            "_type": "link",
+            "href": "https://doi.org/10.1001/jamaoncol.2022.5511"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k5j",
+            "text": "Riaz IB, Islam M, Ikram W, Naqvi SAA, Maqsood H, Saleem Y, Riaz A, Ravi P, Wang Z, Hussain SA, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5k",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5l",
+            "text": ", Odedina FT, Duma N, Singh P, Kehl KL, Kamran SC, Murad MH, Landman A, Van Allen E, Bryce AH. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5m",
+            "text": "Disparities in the Inclusion of Racial and Ethnic Minority Groups and Older Adults in Prostate Cancer Clinical Trials: A Meta-analysis",
+            "marks": [
+              "k5h"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5n",
+            "text": ". JAMA Oncology. 2023 Feb 1;9(2):180-187.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 40,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k5p",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k5o",
+            "_type": "link",
+            "href": "https://doi.org/10.3390/ijms24065327"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k5q",
+            "text": "Hacking S, Chou C, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5r",
+            "text": "Baykara Y,",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5s",
+            "text": " Wang Y, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5t",
+            "text": "Uzun A",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5u",
+            "text": ", ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5v",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5w",
+            "text": ". ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k5x",
+            "text": "MMR Deficiency Defines Distinct Molecular Subtype of Breast Cancer with Histone Proteomic Networks",
+            "marks": [
+              "k5o"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k5y",
+            "text": ". International Journal of Molecular Science. 2023 Mar 10;24(6):5327.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 50,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k60",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k5z",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.lana.2023.100445"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k61",
+            "text": "Choueiri TK*, Labaki C*, Bakouny Z*, Hsu C-Y, Schmidt AL, de Lima Lopes G, Hwang C, Singh SRK, Jani C, Weissmann LB, Griffiths EA, Halabi S, Wu U, Berg S, O'Connor TE, Wise-Draper TM, Panagiotou OA, Klein EJ, Joshi M, Yared F, Santos Dutra M, Gatson NTN, Blau S, Singh H, Nanchal R, McKay RR, Nonato TK, Quinn R, Rubinstein SM, Puc M, Mavromatis BH, Vikas P, Faller B, Zaren HA, Del Prete S, Russell K, Reuben DY, Accordino MK, Singh H, Friese CR, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k62",
+            "text": "Mishra S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k63",
+            "text": ", Rivera DR*, Shyr Y*, Farmakiotis D*, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k64",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k65",
+            "text": "*. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k66",
+            "text": "Breakthrough SARS-CoV-2 infections among patients with cancer following two and three doses of COVID-19 mRNA vaccines: a retrospective observational study from the COVID-19 and Cancer Consortium",
+            "marks": [
+              "k5z"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k67",
+            "text": ". The Lancet Regional Health – Americas. 2023 Mar;19:100445.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 60,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k69",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k68",
+            "_type": "link",
+            "href": "https://doi.org/10.1186/s12885-023-10708-6"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k6a",
+            "text": "Johnson DB, Atkins MB, Hennessy C, Wise-Draper T, Heilman H, Awosika J, Bakouny Z, Labaki C, Saliby RM, Hwang C, Singh SRK, Balanchivadze N, Friese CR, Fecher LA, Yoon JJ, Hayes-Lattin B, Bilen MA, Castellano CA, Lyman GH, Tachiki L, Shah SA, Glover MJ, Flora DB, Wulff-Burchfield E, Kasi A, Abbasi SH, Farmakiotis D, Viera K, Klein EJ, Weissman LB, Jani C, Puc M, Fahey CC, Reuben DY, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6b",
+            "text": "Mishra S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6c",
+            "text": ", Beeghly-Fadiel A, French B, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6d",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6e",
+            "text": "; COVID-19 and Cancer Consortium. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6f",
+            "text": "Impact of COVID-19 in patients on active melanoma therapy and with history of melanoma",
+            "marks": [
+              "k68"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6g",
+            "text": ". BMC Cancer. 2023 Mar 23;23(1):265.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 70,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k6i",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k6h",
+            "_type": "link",
+            "href": "https://doi.org/10.1093/jnci/djad015"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k6j",
+            "text": "Best AF, Bowman M, Li J, Mishkin GE, Denicoff A, Shekfeh M, Rubinstein L, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6k",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6l",
+            "text": ", Rini B, Korde LA. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6m",
+            "text": "COVID-19 severity by vaccination status in the NCI COVID-19 and Cancer Patients Study (NCCAPS)",
+            "marks": [
+              "k6h"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6n",
+            "text": ". Journal of the National Cancer Institute. 2023 May 8;115(5):597-600.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 80,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k6q",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k6o",
+            "_type": "link",
+            "href": "https://doi.org/10.1093/hmg/ddad002"
+          },
+          {
+            "_key": "k6p",
+            "_type": "link",
+            "href": "https://www.spectrumnews.org/news/chromatin-remodeling-tied-to-altered-splicing-in-autism-model/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k6r",
+            "text": "Leung CS, Rosenzweig SJ, Yoon B, Marinelli NA, Hollingsworth EW, Maguire AM, Cowen MH, Schmidt M, Imitola J, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6s",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6t",
+            "text": "*, Lizarraga SB*. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6u",
+            "text": "Dysregulation of the chromatin environment leads to differential alternative splicing as a mechanism of disease in a human model of autism spectrum disorder",
+            "marks": [
+              "k6o"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6v",
+            "text": ". Human Molecular Genetics. 2023 May 5;32(10):1634-1646. This study was featured in a Spectrum News article (\"",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k6w",
+            "text": "Chromatin remodeling tied to altered splicing in autism model",
+            "marks": [
+              "k6p"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k6x",
+            "text": ".\")",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 90,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k6z",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k6y",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.prp.2023.154476"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k70",
+            "text": "Hacking SM, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k71",
+            "text": "Karam J",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k72",
+            "text": ", Singh K, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k73",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k74",
+            "text": ", ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k75",
+            "text": "Brickman A",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k76",
+            "text": ", Yakirevich E, Taliano R, Wang Y. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k77",
+            "text": "Whole slide image features predict pathologic complete response and poor clinical outcomes in triple-negative breast cancer",
+            "marks": [
+              "k6y"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k78",
+            "text": ". Pathology-Research and Practice. 2023 Jun;246:154476.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 100,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k7a",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k79",
+            "_type": "link",
+            "href": "https://doi.org/10.1200/cci.23.00048"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k7b",
+            "text": "Chen S, Guevara M, Ramirez N, Murray A, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7c",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k7d",
+            "text": ", Aerts HJWL, Miller TA, Savova GK, Mak RH, Bitterman DS. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7e",
+            "text": "Natural Language Processing to Automatically Extract the Presence and Severity of Esophagitis in Notes of Patients Undergoing Radiotherapy",
+            "marks": [
+              "k79"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k7f",
+            "text": ". JCO Clinical Cancer Informatics. 2023 Jul;7:e2300048.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 110,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k7g",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k7h",
+            "text": "Jain S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k7i",
+            "text": ", Li X, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7j",
+            "text": "Warner J",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k7k",
+            "text": ". Graphical presentations in systemic anticancer treatment network meta-analyses: A systematic review. Proceedings of MEDINFO 2023. In press.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 120,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k7l",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k7m",
+            "text": "Zack T, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7n",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k7o",
+            "text": ". Introducing a comprehensive score of systemic anticancer treatment relevance. Proceedings of MEDINFO 2023. In press.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 130,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k7q",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k7p",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.tranon.2023.101709"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k7r",
+            "text": "Moey MYY, Hennessy C, French B, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7s",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k7t",
+            "text": ", Tucker MD, Hausrath DJ, Shah DP, DeCara JM, Bakouny Z, Labaki C, Choueiri TK, Dent S, Akhter N, Ismail-Khan R, Tachiki L, Slosky D, Polonsky TS, Awosika JA, Crago A, Wise-Draper T, Balanchivadze N, Hwang C, Fecher LA, Gomez CG, Hayes-Lattin B, Glover MJ, Shah SA, Gopalakrishnan D, Griffiths EA, Kwon DH, Koshkin VS, Mahmood S, Bashir B, Nonato T, Razavi P, McKay RR, Nagaraj G, Oligino E, Puc M, Tregubenko P, Wulff-Burchfield EM, Xie Z, Halfdanarson TR, Farmakiotis D, Klein EJ, Robilotti EV, Riely GJ, Durand JB, Hayek SS, Kondapalli L, Berg S, O'Connor TE, Bilen MA, Castellano C, Accordino MK, Sibel B, Weissmann LB, Jani C, Flora DB, Rudski L, Dutra MS, Nathaniel B, Ruíz-García E, Vilar-Compte D, Gupta S, Morgans A, Nohria A; COVID-19 and Cancer Consortium. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7u",
+            "text": "COVID-19 severity and cardiovascular outcomes in SARS-CoV-2-infected patients with cancer and cardiovascular disease",
+            "marks": [
+              "k7p"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k7v",
+            "text": ". Translational Oncology. 2023 Aug;34:101709.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 140,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k7x",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k7w",
+            "_type": "link",
+            "href": "https://doi.org/10.1200/CCI.23.00082"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k7y",
+            "text": "Rooney MK, Sharifi B, Ludmir EB, Fuller CD, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k7z",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k80",
+            "text": ". ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k81",
+            "text": "Factors Associated With Altmetric Attention Scores for Randomized Phase III Cancer Clinical Trials",
+            "marks": [
+              "k7w"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k82",
+            "text": ". JCO Clinical Cancer Informatics. 2023 Aug;7:e2300082.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 150,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k84",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k83",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.esmoop.2023.101596"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k85",
+            "text": "Castelo-Branco L, Lee R, Brandao M, Cortellini A, Freitaa A, Garassino M, Geukens T, Grivas P, Halabi S, Oliveria J, Pinato DJ, Ribeiro J, Peters S, Pentheroudakis G, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k86",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k87",
+            "text": ", Romano E. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k88",
+            "text": "Learning Lessons from the COVID-19 pandemic for Real World Evidence research in Oncology – shared perspectives from an international consortia",
+            "marks": [
+              "k83"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k89",
+            "text": ". ESMO Open. 2023 Aug;8(4):101596.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 160,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k8b",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k8a",
+            "_type": "link",
+            "href": "https://doi.org/10.1158/1078-0432.ccr-23-0580"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k8c",
+            "text": "Choudhury NJ, Lavery JA, Brown S, de Bruijn I, Jee J, Tran TN, Rizvi H, Arbour KC, Whiting K, Shen R, Hellmann M, Bedard PL, Yu C, Leighl N, LeNoue-Newton M, Micheel C, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k8d",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8e",
+            "text": ", Ginsberg MS, Plodkowski A, Girshman J, Sawan P, Pillai S, Sweeney SM, Kehl KL, Panageas KS, Schultz N, Schrag D, Riely GJ; ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k8f",
+            "text": "AACR GENIE BPC Core Team. The GENIE BPC NSCLC Cohort: A Real-World Repository Integrating Standardized Clinical and Genomic Data for 1,846 Patients with Non-Small Cell Lung Cancer",
+            "marks": [
+              "k8a"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8g",
+            "text": ". Clinical Cancer Research. 2023 Sep 1;29(17):3418-3428.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 170,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k8i",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k8h",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.ijrobp.2023.03.055"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k8j",
+            "text": "Bitterman DS, Goldner E, Finan S, Harris D, Durbin EB, Hochheiser H, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k8k",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8l",
+            "text": ", Mak RH, Miller T, Savova GK. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k8m",
+            "text": "An end-to-end natural language processing system for automatically extracting radiotherapy events from clinical texts: NLP to extract radiotherapy events from text",
+            "marks": [
+              "k8h"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8n",
+            "text": ". International Journal of Radiation Oncology Biology & Physics. 2023 Sep 1;117(1):262-273.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 180,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k8p",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k8o",
+            "_type": "link",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/37945023/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k8q",
+            "text": "Baykara Y",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8r",
+            "text": ", ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k8s",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8t",
+            "text": ", Jackson C, Kurt H. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k8u",
+            "text": "Exon 19 Deletion in EGFR in a Patient with a High-Grade Glioma: A Case Report",
+            "marks": [
+              "k8o"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k8v",
+            "text": ". Annals of Clinical & Laboratory Science. 2023 Sep;53(5):789-791.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 190,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k8x",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k8w",
+            "_type": "link",
+            "href": "https://doi.org/10.1101/2023.05.05.23289524"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k8y",
+            "text": "Hochheiser H, Finan S, Yuan Z, Durbin EB, Jeong JC, Hands I, Rust D, Kavuluru R, Wu XC, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k8z",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k90",
+            "text": ", Savova G. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k91",
+            "text": "DeepPhe-CR: Natural Language Processing Software Services for Cancer Registrar Case Abstraction",
+            "marks": [
+              "k8w"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k92",
+            "text": ". JCO Clinical Cancer Informatics. 2023 Sep;7:e2300156.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 200,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k94",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k93",
+            "_type": "link",
+            "href": "https://doi.org/10.1001/jamaoncol.2023.2934"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k95",
+            "text": "Gulati S, Hsu CY, Shah S, Shah PK, Zon R, Alsamarai S, Awosika J, El-Bakouny Z, Bashir B, Beeghly A, Berg S, de-la-Rosa-Martinez D, Doroshow DB, Egan PC, Fein J, Flora DB, Friese CR, Fromowitz A, Griffiths EA, Hwang C, Jani C, Joshi M, Khan H, Klein EJ, Heater NK, Koshkin VS, Kwon DH, Labaki C, Latif T, McKay RR, Nagaraj G, Nakasone ES, Nonato T, Polimera HV, Puc M, Razavi P, Ruiz-Garcia E, Saliby RM, Shastri A, Singh SRK, Tagalakis V, Vilar-Compte D, Weissmann LB, Wilkins CR, Wise-Draper TM, Wotman MT, Yoon JJ, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k96",
+            "text": "Mishra S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k97",
+            "text": ", Grivas P, Shyr Y, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k98",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k99",
+            "text": ", Connors JM, Shah DP*, Rosovsky RP*; ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9a",
+            "text": "COVID-19 and Cancer Consortium. Systemic Anticancer Therapy and Thromboembolic Outcomes in Hospitalized Patients With Cancer and COVID-19",
+            "marks": [
+              "k93"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9b",
+            "text": ". JAMA Oncology. 2023 Oct 1;9(10):1390-1400.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 210,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k9d",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k9c",
+            "_type": "link",
+            "href": "https://doi.org/10.7554/eLife.82618"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k9e",
+            "text": "Nagaraj G*, Vinayak S*, Khaki AR*, Sun T, Kuderer NM, Aboulafia DM, Acoba JD, Awosika J, Bakouny Z, Balmaceda NB, Bao T, Bashir B, Berg S, Bilen MA, Bindal P, Blau S, Bodin BE, Borno HT, Castellano C, Choi H, Deeken J, Desai A, Edwin N, Feldman LE, Flora DB, Friese CR, Galsky MD, Gonzalez CJ, Grivas P, Gupta S, Haynam M, Heilman H, Hershman DL, Hwang C, Jani C, Jhawar SR, Joshi M, Kaklamani V, Klein EJ, Knox N, Koshkin VS, Kulkarni AA, Kwon DH, Labaki C, Lammers PE, Lathrop KI, Lewis MA, Li X, Lopes GL, Lyman GH, Makower DF, Mansoor AH, Markham MJ, Mashru SH, McKay RR, Messing I, Mico V, Nadkarni R, Namburi S, Nguyen RH, Nonato TK, O'Connor TL, Panagiotou OA, Park K, Patel JM, Patel KG, Peppercorn J, Polimera H, Puc M, Rao YJ, Razavi P, Reid SA, Riess JW, Rivera DR, Robson M, Rose SJ, Russ AD, Schapira L, Shah PK, Shanahan MK, Shapiro LC, Smits M, Stover DG, Streckfuss M, Tachiki L, Thompson MA, Tolaney SM, Weissmann LB, Wilson G, Wotman MT, Wulff-Burchfield EM, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9f",
+            "text": "Mishra S",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9g",
+            "text": ", French B, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9h",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9i",
+            "text": ", Lustberg MB*, Accordino MK*, Shah DP*; COVID-19 and Cancer Consortium. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9j",
+            "text": "Clinical characteristics, racial inequities, and outcomes in patients with breast cancer and COVID-19: a COVID-19 and cancer consortium (CCC19) cohort study",
+            "marks": [
+              "k9c"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9k",
+            "text": ". eLife. 2023 Oct 17:12:e82618.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 220,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k9m",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k9l",
+            "_type": "link",
+            "href": "https://doi.org/10.1093/bioinformatics/btad655"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k9n",
+            "text": "Shuey MM, Stead WW, Aka I, Barnado AL, Bastarache JA, Brokamp E, Campbell M, Carroll RJ, Goldstein JA, Lewis A, Malow BA, Mosley JD, Osterman T, Padovani-Claudio DA, Ramirez A, Roden DM, Schuler BA, Siew E, Sucre J, Thomsen I, Tinker RJ, Van Driest S, Walsh C, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9o",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9p",
+            "text": ", Wells QS, Wheless L, Bastarache L. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9q",
+            "text": "Next-generation phenotyping: introducing phecodeX for enhanced discovery research in medical phenomics",
+            "marks": [
+              "k9l"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9r",
+            "text": ". Bioinformatics. 2023 Nov 1;39(11):btad655.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 230,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "k9t",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k9s",
+            "_type": "link",
+            "href": "https://doi.org/10.1093/jamiaopen/ooad093"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "k9u",
+            "text": "Cannon M, Stevenson J, Kuzma K, Kiwala S, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9v",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9w",
+            "text": ", Griffith OL, Griffith M, Wagner AH. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "k9x",
+            "text": "Normalization of drug and therapeutic concepts with Thera-Py",
+            "marks": [
+              "k9s"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "k9y",
+            "text": ". JAMIA Open. 2023 Nov 8;6(4):ooad093.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 240,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "ka0",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "k9z",
+            "_type": "link",
+            "href": "https://doi.org/10.1242/bio.059778"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "ka1",
+            "text": "Wu Q",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "ka2",
+            "text": ", Ma L, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "ka3",
+            "text": "Joesch-Cohen L",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "ka4",
+            "text": ", Schmidt M, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "ka5",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "ka6",
+            "text": "*, Morrow EM*. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "ka7",
+            "text": "Targeting NHE6 gene expression identifies lysosome and neurodevelopmental mechanisms in a haploid in vitro cell model",
+            "marks": [
+              "k9z"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "ka8",
+            "text": ". Biology Open. 2023 Nov 15;12(11):bio059778.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 250,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kaa",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "ka9",
+            "_type": "link",
+            "href": "https://doi.org/10.1200/go.23.00229"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kab",
+            "text": "Jani CT*, Ahmed A*, Singh H, Mouchati C, Al Omari O, Bhatt PS, Sharma R, Farooq M, Liu W, Shalhoub J, Marshall D, Salciccioli JD*, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kac",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kad",
+            "text": "*, Lam P*. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kae",
+            "text": "Burden of AML, 1990-2019: Estimates From the Global Burden of Disease Study",
+            "marks": [
+              "ka9"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kaf",
+            "text": ". JCO Global Oncology. 2023 Nov 22;9:e2300229.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 260,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kah",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "kag",
+            "_type": "link",
+            "href": "https://doi.org/10.1093/jamia/ocad211"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kai",
+            "text": "Walton NA, Nagarajan R, Wang C, Sincan M, Freimuth RR, Everman DB, Walton DC, McGrath SP, Lemas DJ, Benos PV, Alekseyenko AV, Song Q, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kaj",
+            "text": "Gamsiz Uzun ED",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kak",
+            "text": ", Taylor CO, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kal",
+            "text": "Uzun A",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kam",
+            "text": ", Person TN, Rappoport N, Zhao Z, Williams MS. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kan",
+            "text": "Enabling the clinical application of artificial intelligence in genomics: a perspective of the AMIA Genomics and Translational Bioinformatics Workgroup",
+            "marks": [
+              "kag"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kao",
+            "text": ". Journal of the American Medical Informatics Association, 2023 Nov30:ocad211.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 270,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kaq",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "kap",
+            "_type": "link",
+            "href": "https://doi.org/10.1158/0008-5472.can-23-0816"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kar",
+            "text": "de Bruijn I, Kundra R, Mastrogiacomo B, Tran TN, Sikina L, Mazor T, Li X, Ochoa A, Zhao G, Lai B, Abeshouse A, Baiceanu D, Ciftci E, Dogrusoz U, Dufilie A, Erkoc Z, Garcia Lara E, Fu Z, Gross B, Haynes C, Heath A, Higgins D, Jagannathan P, Kalletla K, Kumari P, Lindsay J, Lisman A, Leenknegt B, Lukasse P, Madela D, Madupuri R, van Nierop P, Plantalech O, Quach J, Resnick AC, Rodenburg SYA, Satravada BA, Schaeffer F, Sheridan R, Singh J, Sirohi R, Sumer SO, van Hagen S, Wang A, Wilson M, Zhang H, Zhu K, Rusk N, Brown S, Lavery JA, Panageas KS, Rudolph JE, LeNoue-Newton ML, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kas",
+            "text": "Warner JL",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kat",
+            "text": ", Guo X, Hunter-Zinck H, Yu TV, Pilai S, Nichols C, Gardos SM, Philip J; AACR Project GENIE BPC Core Team, AACR Project GENIE Consortium; Kehl KL, Riely GJ, Schrag D, Lee J, Fiandalo MV, Sweeney SM, Pugh TJ, Sander C, Cerami E, Gao J, Schultz N. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kau",
+            "text": "Analysis and Visualization of Longitudinal Genomic and Clinical Data from the AACR Project GENIE Biopharma Collaborative in cBioPortal",
+            "marks": [
+              "kap"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kav",
+            "text": ". Cancer Research. 2023 Dec 1;83(23):3861-3867.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 280,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kax",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "kaw",
+            "_type": "link",
+            "href": "https://doi.org/10.1214/23-AOAS1748"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kay",
+            "text": "EA Sigworth, SM Rubinstein, ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kaz",
+            "text": "JL Warner",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kb0",
+            "text": ", Y Chen, Q Chen. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kb1",
+            "text": "Building a dose toxo-equivalence model from a Bayesian meta-analysis of published clinical trials",
+            "marks": [
+              "kaw"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kb2",
+            "text": ". The Annals of Applied Statistics. 2023 Dec;17(4):2993-3012.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "order": 290,
+    "citation": [
+      {
+        "_type": "block",
+        "_key": "kb4",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_key": "kb3",
+            "_type": "link",
+            "href": "https://doi.org/10.1016/j.jpi.2023.100350"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "kb5",
+            "text": "Brickman A",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kb6",
+            "text": ", ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kb7",
+            "text": "Baykara Y,",
+            "marks": [
+              "strong"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kb8",
+            "text": " Carabaño M, Hacking SM. ",
+            "marks": []
+          },
+          {
+            "_type": "span",
+            "_key": "kb9",
+            "text": "Whole slide images as non-fungible tokens: A decentralized approach to secure, scalable data storage and access",
+            "marks": [
+              "kb3"
+            ]
+          },
+          {
+            "_type": "span",
+            "_key": "kba",
+            "text": ". J Pathol Inform. 2023 Nov 9;15:100350. doi: 10.1016/j.jpi.2023.100350. PMID: 38162951; PMCID: PMC10757022.",
+            "marks": []
+          }
+        ]
+      }
+    ]
+  }
+]

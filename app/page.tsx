@@ -4,6 +4,8 @@ import FivePillars from "./components/fivepillars";
 import UpcomingEvents from "./components/UpcomingEvents";
 import ContactUsWrapper from "./components/ContactUsWrapper";
 
+export const revalidate = 60;
+
 export default function Home() {
   return (
     <div>

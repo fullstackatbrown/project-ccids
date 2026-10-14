@@ -2,6 +2,8 @@ import { getSeminars } from "@/sanity/lib/queries";
 import EventsClient from "./EventsClient";
 import type { SeminarEntry } from "./EventsClient";
 
+export const revalidate = 60;
+
 const fallbackSeminars: SeminarEntry[] = [
   {
     speakers: "Jeremy L. Warner MD, MS and Ece Uzun, MS, PhD",

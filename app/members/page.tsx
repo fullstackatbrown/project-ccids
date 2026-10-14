@@ -3,6 +3,8 @@ import { urlFor } from "@/sanity/lib/image";
 import MembersList from "./MembersList";
 import type { MemberData } from "./MembersList";
 
+export const revalidate = 60;
+
 const fallbackMembers: MemberData[] = [
   {
     name: "Arlen Brickman, MD",

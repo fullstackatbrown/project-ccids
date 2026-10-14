@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { PortableText, type PortableTextBlock, type PortableTextComponents } from "next-sanity";
 import svgPaths from "./svgPaths";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -27,6 +28,20 @@ function PubLink({ href, children }: { href: string; children: React.ReactNode }
       {children}
     </a>
   );
+}
+
+// Renders a Sanity citation with the same bold/link styling as the hardcoded list
+const citationComponents: PortableTextComponents = {
+  block: { normal: ({ children }) => <>{children}</> },
+  marks: {
+    strong: ({ children }) => <B>{children}</B>,
+    link: ({ value, children }) => <PubLink href={value?.href ?? "#"}>{children}</PubLink>,
+  },
+};
+
+export interface SanityPublication {
+  year: number;
+  citation: PortableTextBlock[];
 }
 
 // ─── Year header ──────────────────────────────────────────────────────────────
@@ -801,8 +816,37 @@ function SocialIconsSVG() {
 
 // ─── Main component ───────────────────────────────────────────────────────────
 
-export default function PublicationsPage() {
+// Hardcoded list, used only if the Sanity fetch fails
+const fallbackSections = [
+  { year: 2025, pubs: pubs2025 },
+  { year: 2024, pubs: pubs2024 },
+  { year: 2023, pubs: pubs2023 },
+];
+
+export default function PublicationsPage({
+  pageTitle,
+  intro,
+  publications,
+}: {
+  pageTitle: string;
+  intro: string;
+  // undefined means the Sanity fetch failed, so the hardcoded list is shown
+  publications?: SanityPublication[];
+}) {
   const baseFont = "'Source Sans 3', 'Source Sans Pro', sans-serif";
+
+  // One section per year, newest first (the query already sorts by year, then order)
+  const sections = publications
+    ? publications.reduce<{ year: number; pubs: PublicationEntry[] }[]>((acc, p) => {
+        let section = acc.find((s) => s.year === p.year);
+        if (!section) acc.push((section = { year: p.year, pubs: [] }));
+        section.pubs.push({
+          number: section.pubs.length + 1,
+          content: <PortableText value={p.citation} components={citationComponents} />,
+        });
+        return acc;
+      }, [])
+    : fallbackSections;
 
   return (
     <div style={{ fontFamily: baseFont, background: "#fff", minHeight: "100vh" }}>
@@ -823,7 +867,7 @@ export default function PublicationsPage() {
             lineHeight: 1.1,
           }}
         >
-          Selected Publications
+          {pageTitle}
         </h1>
         <p
           style={{
@@ -835,7 +879,7 @@ export default function PublicationsPage() {
             lineHeight: 1.6,
           }}
         >
-          These are selected publications by the CCIDS members. Member names are in bold.
+          {intro}
         </p>
       </motion.div>
 
@@ -850,53 +894,23 @@ export default function PublicationsPage() {
           gap: 0,
         }}
       >
-        {/* 2025 */}
-        <motion.section
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          style={{ marginBottom: 60 }}
-        >
-          <YearHeading year="2025" />
-          <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 24 }}>
-            {pubs2025.map((p) => (
-              <PubItem key={p.number} {...p} />
-            ))}
-          </div>
-        </motion.section>
-
-        {/* 2024 */}
-        <motion.section
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          style={{ marginBottom: 60 }}
-        >
-          <YearHeading year="2024" />
-          <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 24 }}>
-            {pubs2024.map((p) => (
-              <PubItem key={p.number} {...p} />
-            ))}
-          </div>
-        </motion.section>
-
-        {/* 2023 */}
-        <motion.section
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          style={{ marginBottom: 60 }}
-        >
-          <YearHeading year="2023" />
-          <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 24 }}>
-            {pubs2023.map((p) => (
-              <PubItem key={p.number} {...p} />
-            ))}
-          </div>
-        </motion.section>
+        {sections.map(({ year, pubs }) => (
+          <motion.section
+            key={year}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            style={{ marginBottom: 60 }}
+          >
+            <YearHeading year={String(year)} />
+            <div style={{ display: "flex", flexDirection: "column", gap: 28, marginTop: 24 }}>
+              {pubs.map((p) => (
+                <PubItem key={p.number} {...p} />
+              ))}
+            </div>
+          </motion.section>
+        ))}
       </main>
     </div>
   );
