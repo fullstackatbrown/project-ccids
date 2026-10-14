@@ -14,7 +14,10 @@ export default async function ContactUsWrapper() {
         name: m.name,
         role: m.role,
         title: m.title,
-        imageSrc: m.photo ? urlFor(m.photo).width(560).height(720).url() : "/members/headshots/placeholder.jpg",
+        // 2x the 280x360 carousel frame
+        imageSrc: m.photo
+          ? urlFor(m.photo).width(560).height(720).auto("format").quality(90).url()
+          : "/members/headshots/placeholder.jpg",
       })
     );
   } catch {

@@ -89,7 +89,10 @@ export default async function MembersPage() {
         role: m.role,
         title: m.title,
         href: m.href || "#",
-        imageSrc: m.photo ? urlFor(m.photo).width(168).height(168).url() : "/members/headshots/placeholder.jpg",
+        // 2x the largest displayed avatar (160x210 on mobile)
+        imageSrc: m.photo
+          ? urlFor(m.photo).width(320).height(420).auto("format").quality(90).url()
+          : "/members/headshots/placeholder.jpg",
         imageAlt: `photo of ${m.name}`,
       })
     );

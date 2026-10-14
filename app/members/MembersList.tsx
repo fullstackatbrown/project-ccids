@@ -66,8 +66,10 @@ export default function MembersList({ members }: { members: MemberData[] }) {
                 <Image
                   src={m.imageSrc}
                   alt={m.imageAlt}
-                  width={84}
-                  height={84}
+                  width={160}
+                  height={210}
+                  // Sanity's CDN already resizes; don't let Next recompress
+                  unoptimized={m.imageSrc.startsWith("https://cdn.sanity.io/")}
                   className={styles.avatarImg}
                 />
               </div>

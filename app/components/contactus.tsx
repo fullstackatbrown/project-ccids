@@ -301,6 +301,8 @@ export default function ContactUs({ members: membersProp }: { members?: Carousel
                     alt={currentMember.name}
                     width={280}
                     height={360}
+                    // Sanity's CDN already resizes; don't let Next recompress
+                    unoptimized={currentMember.imageSrc.startsWith("https://cdn.sanity.io/")}
                     className="w-full h-full object-cover"
                   />
                 </div>
