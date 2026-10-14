@@ -1,7 +1,10 @@
 import { createImageUrlBuilder } from "@sanity/image-url";
-import { client } from "./client";
 
-const builder = createImageUrlBuilder(client);
+// Configured from env (not the API client) so it also works in client components
+const builder = createImageUrlBuilder({
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
+  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET!,
+});
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function urlFor(source: any) {

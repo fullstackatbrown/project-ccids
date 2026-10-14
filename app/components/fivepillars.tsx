@@ -1,15 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
 
-export default function FivePillars() {
-  const pillars = [
-    ["C", "ontent Standardization"],
-    ["C", "linical Integration"],
-    ["I", "nformation Extraction"],
-    ["D", "issemination of new technologies"],
-    ["S", "cholarship/Education"],
-  ];
-  return pillars.map(([initial, text], index) => (
+export default function FivePillars({ pillars }: { pillars: string[] }) {
+  // First letter is shown large, the rest of the pillar next to it
+  return pillars.map((pillar) => [pillar.charAt(0), pillar.slice(1)]).map(([initial, text], index) => (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}

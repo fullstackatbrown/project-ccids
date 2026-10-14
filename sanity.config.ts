@@ -4,7 +4,7 @@ import { visionTool } from "@sanity/vision";
 import { schemaTypes } from "./sanity/schemas";
 
 // Types with exactly one document, opened directly instead of as a list
-const SINGLETONS = ["newslettersPage", "publicationsPage"];
+const SINGLETONS = ["homePage", "newslettersPage", "publicationsPage"];
 
 export default defineConfig({
   name: "ccids",
@@ -20,6 +20,10 @@ export default defineConfig({
         S.list()
           .title("Content")
           .items([
+            S.listItem()
+              .title("Home Page")
+              .id("homePage")
+              .child(S.document().schemaType("homePage").documentId("homePage")),
             S.listItem()
               .title("Newsletters Page")
               .id("newslettersPage")

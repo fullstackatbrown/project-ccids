@@ -34,20 +34,6 @@ export async function getSeminars() {
   return client.fetch(seminarsQuery);
 }
 
-// ---------- Page Copy ----------
-export const pageCopyQuery = `*[_type == "pageCopy" && pageId == $pageId] | order(order asc) {
-  _id,
-  pageId,
-  section,
-  heading,
-  body,
-  order
-}`;
-
-export async function getPageCopy(pageId: string) {
-  return client.fetch(pageCopyQuery, { pageId });
-}
-
 // ---------- Newsletters page ----------
 export const highlightsQuery = `*[_type == "highlight"] | order(order asc) {
   _id,
@@ -87,4 +73,21 @@ export async function getPublications() {
 
 export async function getPublicationsPage() {
   return client.fetch(publicationsPageQuery);
+}
+
+// ---------- Home page ----------
+export const homePageQuery = `*[_id == "homePage"][0] {
+  heroTitle,
+  heroSubtitle,
+  heroImage,
+  visionHeading,
+  visionText,
+  pillarsHeading,
+  pillars,
+  eventsHeading,
+  contactHeading
+}`;
+
+export async function getHomePage() {
+  return client.fetch(homePageQuery);
 }

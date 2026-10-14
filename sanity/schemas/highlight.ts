@@ -7,7 +7,7 @@ export const HIGHLIGHT_SECTIONS = [
 
 export default defineType({
   name: "highlight",
-  title: "Highlight",
+  title: "Newsletter Highlight",
   type: "document",
   description: 'A bullet on the Newsletters page ("Highlights from Our Members")',
   fields: [
